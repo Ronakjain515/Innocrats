@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innovater bazar</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/media.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/meanmenu.css' %}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   
+   
+</head>
+<body>
+     <!-- started header -->
+   
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="icon">
+                        <ul>
+                            <li><a href="#"><img src="{% static 'images/icons8_facebook_32.png' %}"></a></li>
+                            <li><a href="#"><img src="{% static 'images/icons8_twitter_circled_32.png' %}"></a></li>
+                            <li><a href="#"><img src="{% static 'images/icons8_linkedin_circled_32.png' %}"></a></li>
+                            <li><a href="#"><img src="{% static 'images/icons8_play_button_32.png' %}"></a></li>
+                            <li><a href="#"><img src="{% static 'images/contacts.png' %}"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                        <div class="col-sm-5">
+                            
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="index.html">VIEW PROJECTS</a></li>
+                                    <li><a href="required.html">    VIEW LEADS</a></li>
+                                    <li><a href="categoriespage.html"> CATEGORIES  </a></li>
+                                    <li><a href="companylist.html"> COMPANY</a></li>
+                                   
+                                </ul>
+                                </div>
+
+                        </div>
+                            <div class="col-sm-4">
+                                <div class="login">
+                                    <ul>
+                                        <li><a href="notification.html"><img src="{% static 'images/alert.png' %}"></a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="regist.html">Registred</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+             </div>
+            </div>
+        
+        <div class="container-fluid">
+           
+                <div class="navs">
+                        <div class="logo">
+                                                <img src="{% static 'images/logo.png' %}">
+                                            </div>
+
+
+                                            <div class="search">
+                                                <div class="s">
+                                                    <input type="text" placeholder="search by heaading, search by ID">
+                                                </div>
+                                               <div class="sec">
+                                    <button class="ic">
+                                                                                    
+                                                                                            <i class="fas fa-search"></i>
+                                                                                    
+                                                                                    </button>
+                                               </div>
+                                               
+                                            </div>  
+                                            <div class="submit">
+                                                <div class="submit1">
+                                                    <a href="creatlead.html">SUBMIT PROJECT</a>
+                                                </div>
+                                                <div class="submit1">
+                                                    <a href="creatlead.html">CREAT LEAD</a>
+                                                </div>
+                                            </div>                    
+
+                </div>
+                   
+                </div>
+               
+                    
+                       
+                        
+                          
+                       
+                       
+                
+        <!-- END HEADER -->
+            <div class="banner">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="{% static 'images/banner.png' %}" height="291px" width="100%">
+                        <div class="carousel-caption">
+                          <h3>Los Angeles</h3>
+                          <p>We had such a great time in LA!</p>
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{% static 'images/banner.png' %}" height="291px"  width="100%">
+                        <div class="carousel-caption">
+                          <h3>Chicago</h3>
+                          <p>Thank you, Chicago!</p>
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{% static 'images/banner.png' %}" height="291px"  width="100%">
+                        <div class="carousel-caption">
+                          <h3>New York</h3>
+                          <p>We love the Big Apple!</p>
+                        </div>   
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+                  
+        </div>
+    
+<div class="indexbanner">
+     
+    <div class="container">
+            
+        <!-- Button to Open the Modal -->
+        
+         
+        
+      
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">title</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <!-- Modal body -->
+              <div class="modal-body">
+               <p style="    font-size: 14px;
+               line-height: 25px;
+               padding: 10px;"> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                   Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque </p>
+              </div>
+              
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+
+
+
+
+<div class="container">
+    
+    <div class="project">
+        <div class="detailprosonal">
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="parsonal">
+                        <div class="photo">
+                            <img src="images/person.png">
+                        </div>
+                        <div class="detaila1">
+                            <ul>
+                                <li><a href="#">Vikash Singh 
+                               
+                                <button  class="do1" type="button" data-toggle="modal" data-target="#myMo" style="border: none;
+                                ">
+                                    <i class="fas fa-users"></i> 07
+                                   </button>
+                            
+                            
+                             
+                                </a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="container1">
+                            
+                          
+                            <!-- The Modal -->
+                            <div class="modal" id="myMo">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                
+                                  <!-- Modal Header -->
+                                  <div class="modal-header">
+                                    <h4 class="modal-title">Group Member Name</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  </div>
+                                  
+                                  <!-- Modal body -->
+                                  <div class="modal-body">
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                  </div>
+                                  
+                                  <!-- Modal footer -->
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+
+
+
+                        <div class="detail1">
+                            <ul>
+                               
+                            <li><a href="#">20-02-2020 & 05: 30 AM</a></li>
+                            </ul>
+                        </div>
+                   </div>
+                </div>
+              
+                <div class="col-sm-3">
+                    <div class="parsonal">
+                <div class="detail11">
+                    <ul>
+                        <li><a href="#">Project Code</a></li>
+                   
+                    </ul>
+                </div>
+                <div class="detail1">
+                    <ul>
+                        
+                    <li><a href="#">[ 00as3303 ]</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="col-sm-3">
+                <div class="detail111">
+                    <ul>
+                        <li><a href="#">Regitration NO.</a></li>
+                   
+                    </ul>
+                </div>
+                <div class="detail1">
+                    <ul>
+                        
+                    <li><a href="#">[ 00as3303 ]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="dw">
+                
+                <div class="dropup">
+                    <button class="dropbtn">
+
+                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropup-content">
+                     
+                    <a href="#">SHARE
+                        
+                        <span class="ico"><i class="fa fa-share-alt-square" aria-hidden="true"></i></span>
+                    
+                    
+                    </a> 
+                      <a href="#">IP LINK / INFO
+
+
+                      </a>
+                     
+                    </div>
+                  </div>
+
+</span> 
+        </div>
+    </div>
+   
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="Categories">
+                <ul>
+                    <li><a href="#">CATEGORY : - SOFTWARE</a></li>
+                  
+                </ul>
+            </div>
+        </div>
+        
+            <div class="interstedabc">
+            <div class="interested">
+               
+                <button class="abt">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+
+                </button>
+              
+                   
+                        
+                        
+                       
+                    
+                    
+                   
+                   
+               
+            </div>
+            <div class="interestedB">
+                <button class="abt1"> 
+                        
+               
+                 I AM INTERESTED
+                </button>
+            </div>
+           
+        
+        <div class="interested">
+               
+            
+            <button class="abt2">
+                <i class="fas fa-share-alt"></i>
+
+            </button>              
+            
+          
+       
+    </div>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="projectpic">
+            <a href="#"><img src="images/projectpic.png"></a>
+        </div>
+    </div>
+    <div class="col-sm-8">
+        <div class="heading">
+            <h2>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh HGFFGF</h2>
+        </div>
+        <div class="projectpic">
+
+            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum. 
+                Proin gravida nibh vel velit auctor aliquet.
+                 Aenean sollicitudin, lorem quis bibendum auctor, 
+                 nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                <span>
+                    <span class="probut"><button type="button" class="btn btn-primary11" data-toggle="modal" data-target="#myModal" style="font-size: 12px;
+                        margin-bottom: 4px;">Read More</button>
+
+
+
+                </span>
+                
+                </p></span>
+
+
+
+                 <span class="projecttext2"><p> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                   Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque 
+                     
+                     </p></span>
+                     <div class="projectpic1">
+                            <ul>
+                                
+                    
+                         <li><a href="detailpage.html">VIEW DETAILS</a></li>
+                     </ul>
+                     </div>
+             
+                    
+
+        </div>
+    </div>
+</div>
+
+   
+
+<div class="send1">
+    <div class="sendtext">
+     <textarea type="text" placeholder="Write a Suggestion......" class="messagebox1"></textarea>
+    </div>
+    <div class="sendbu">
+        <button class="te"><i class="far fa-paper-plane"></i></button>
+    </div>
+    </div>
+    
+        <div class="leee1">
+            <a href="#">View All Suggestion</a>   
+            </div>
+        
+    <div class="comment">
+        <div class="commentpic">
+            <img src="images/person.png">
+        </div>
+        <div class="commentext">
+            <a href="#">Vikash Singh</a>
+            <p>this is a best project</p>
+            <div class="like">
+                <ul>
+                    
+                    <li><a href="#"><img src="images/reply.png"> Reply</a></li>
+                </ul>
+            </div>
+            <div class="reply1">
+                <div class="rel">
+                    <img src="images/person.png">
+                </div>
+                <div class="rel11">
+                    <input type="text" placeholder="text" class="r">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+<div class="container">
+    
+    <div class="project">
+        <div class="detailprosonal">
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="parsonal">
+                        <div class="photo">
+                            <img src="images/person.png">
+                        </div>
+                        <div class="detaila1">
+                            <ul>
+                                <li><a href="#">Vikash Singh 
+                               
+                                <button  class="do1" type="button" data-toggle="modal" data-target="#myMo" style="border: none;
+                                ">
+                                    <i class="fas fa-users"></i> 07
+                                   </button>
+                            
+                            
+                             
+                                </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="container1">
+                            
+                          
+                            <!-- The Modal -->
+                            <div class="modal" id="myMo">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                
+                                  <!-- Modal Header -->
+                                  <div class="modal-header">
+                                    <h4 class="modal-title">Group Member Name</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  </div>
+                                  
+                                  <!-- Modal body -->
+                                  <div class="modal-body">
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                  </div>
+                                  
+                                  <!-- Modal footer -->
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+
+                        <div class="detail1">
+                            <ul>
+                               
+                            <li><a href="#">20-02-2020 & 05: 30 AM</a></li>
+                            </ul>
+                        </div>
+                   </div>
+                </div>
+              
+                <div class="col-sm-3">
+                    <div class="parsonal">
+                <div class="detail11">
+                    <ul>
+                        <li><a href="#">Project Code</a></li>
+                   
+                    </ul>
+                </div>
+                <div class="detail1">
+                    <ul>
+                        
+                    <li><a href="#">[ 00as3303 ]</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="col-sm-3">
+                <div class="detail111">
+                    <ul>
+                        <li><a href="#">Regitration NO.</a></li>
+                   
+                    </ul>
+                </div>
+                <div class="detail1">
+                    <ul>
+                        
+                    <li><a href="#">[ 00as3303 ]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="dw">
+                
+                <div class="dropup">
+                    <button class="dropbtn">
+
+                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropup-content">
+                      <a href="#">SAVE
+                          <span class="ico"><i class="fa fa-download" aria-hidden="true"></i></span>
+                        
+                        
+                        </a>
+                    <a href="#">SHARE
+                        
+                        <span class="ico"><i class="fa fa-share-alt-square" aria-hidden="true"></i></span>
+                    
+                    
+                    </a>
+                      <a href="#">IP LINK / INFO</a>
+                      <!-- <a href="#">DELETE
+                          
+                        <span class="ico"><i class="fa fa-trash" aria-hidden="true"></i>
+                        </span>
+                      </a> -->
+                    </div>
+                  </div>
+
+</span> 
+        </div>
+    </div>
+   
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="Categories">
+                <ul>
+                    <li><a href="#">CATEGORY : - SOFTWARE</a></li>
+                  
+                </ul>
+            </div>
+        </div>
+        
+            <div class="interstedabc">
+            <div class="interested">
+               
+                <button class="abt">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+
+                </button>
+              
+                   
+                        
+                        
+                       
+                    
+                    
+                   
+                   
+               
+            </div>
+            <div class="interestedB">
+                <button class="abt1"> 
+                        
+               
+                 I AM INTERESTED
+                </button>
+            </div>
+           
+        
+        <div class="interested">
+               
+            
+            <button class="abt2">
+                <i class="fas fa-share-alt"></i>
+
+            </button>             
+            
+          
+       
+    </div>
+        </div>
+    </div>
+<div class="heading">
+    <h2>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh HGFFGF</h2>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        <div class="projectpic">
+            <a href="#"><img src="images/projectpic.png"></a>
+        </div>
+    </div>
+    <div class="col-sm-8">
+        <div class="projectpic">
+
+            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum. 
+                Proin gravida nibh vel velit auctor aliquet.
+                 Aenean sollicitudin, lorem quis bibendum auctor, 
+                 nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                <span>
+                    <span class="probut"><button type="button" class="btn btn-primary11" data-toggle="modal" data-target="#myModal" style="font-size: 12px;
+                        margin-bottom: 4px;">Read More</button>
+
+
+
+                </span>
+                
+                </p></span>
+
+
+
+                 <span class="projecttext2"><p> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                   Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque 
+                     
+                     </p></span>
+                     <div class="projectpic1">
+                            <ul>
+                      
+                         <li><a href="detailpage.html">VIEW DETAILS</a></li>
+                     </ul>
+                     </div>
+                     
+                
+
+        </div>
+    </div>
+</div>
+
+   
+
+
+<div class="send1">
+    <div class="sendtext">
+     <textarea type="text" placeholder="Write a Suggestion......" class="messagebox1"></textarea>
+    </div>
+    <div class="sendbu">
+        <button class="te"><i class="far fa-paper-plane"></i></button>
+    </div>
+    </div>
+    <div class="leee1">
+        <a href="#">View All Suggestion</a>   
+        </div>
+    
+<div class="comment">
+    <div class="commentpic">
+        <img src="images/person.png">
+    </div>
+    <div class="commentext">
+        <a href="#">Vikash Singh</a>
+        <p>this is a best project</p>
+        <div class="like">
+            <ul>
+                
+                <li><a href="#"><img src="images/reply.png"> Reply</a></li>
+            </ul>
+        </div>
+        <div class="reply1">
+            <div class="rel">
+                <img src="images/contacts.png">
+            </div>
+            <div class="rel11">
+                <input type="text" placeholder="text" class="r">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="container">
+    
+    <div class="project">
+        <div class="detailprosonal">
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="parsonal">
+                        <div class="photo">
+                            <img src="images/person.png">
+                        </div>
+                        <div class="detaila1">
+                            <ul>
+                                <li><a href="#">Vikash Singh 
+                               
+                                <button  class="do1" type="button" data-toggle="modal" data-target="#myMo" style="border: none;
+                                ">
+                                    <i class="fas fa-users"></i> 07
+                                   </button>
+                            
+                            
+                             
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="container1">
+                            
+                          
+                            <!-- The Modal -->
+                            <div class="modal" id="myMo">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                
+                                  <!-- Modal Header -->
+                                  <div class="modal-header">
+                                    <h4 class="modal-title">Group Member Name</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  </div>
+                                  
+                                  <!-- Modal body -->
+                                  <div class="modal-body">
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                  </div>
+                                  
+                                  <!-- Modal footer -->
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+
+                        <div class="detail1">
+                            <ul>
+                               
+                            <li><a href="#">20-02-2020 & 05: 30 AM</a></li>
+                            </ul>
+                        </div>
+                   </div>
+                </div>
+              
+                <div class="col-sm-3">
+                    <div class="parsonal">
+                <div class="detail11">
+                    <ul>
+                        <li><a href="#">Project Code</a></li>
+                   
+                    </ul>
+                </div>
+                <div class="detail1">
+                    <ul>
+                        
+                    <li><a href="#">[ 00as3303 ]</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="col-sm-3">
+                <div class="detail111">
+                    <ul>
+                        <li><a href="#">Regitration NO.</a></li>
+                   
+                    </ul>
+                </div>
+                <div class="detail1">
+                    <ul>
+                        
+                    <li><a href="#">[ 00as3303 ]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="dw">
+                
+                <div class="dropup">
+                    <button class="dropbtn">
+
+                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropup-content">
+                      <a href="#">SAVE
+                          <span class="ico"><i class="fa fa-download" aria-hidden="true"></i></span>
+                        
+                        
+                        </a>
+                    <a href="#">SHARE
+                        
+                        <span class="ico"><i class="fa fa-share-alt-square" aria-hidden="true"></i></span>
+                    
+                    
+                    </a>
+                      <a href="#">IP LINK / INFO</a>
+                      <a href="#">DELETE
+                          
+                        <span class="ico"><i class="fa fa-trash" aria-hidden="true"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+
+</span> 
+        </div>
+    </div>
+   
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="Categories">
+                <ul>
+                    <li><a href="#">CATEGORY : - SOFTWARE</a></li>
+                  
+                </ul>
+            </div>
+        </div>
+        
+            <div class="interstedabc">
+            <div class="interested">
+               
+                <button class="abt">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+
+                </button>
+              
+                   
+                        
+                        
+                       
+                    
+                    
+                   
+                   
+               
+            </div>
+            <div class="interestedB">
+                <button class="abt1"> 
+                        
+               
+                 I AM INTERESTED
+                </button>
+            </div>
+           
+        
+        <div class="interested">
+               
+            
+            <button class="abt2">
+                <i class="fas fa-share-alt"></i>
+
+            </button>              
+            
+          
+       
+    </div>
+        </div>
+    </div>
+<div class="heading">
+    <h2>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh HGFFGF</h2>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        <div class="projectpic">
+            <a href="#"><img src="images/projectpic.png"></a>
+        </div>
+    </div>
+    <div class="col-sm-8">
+        <div class="projectpic">
+
+            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum. 
+                Proin gravida nibh vel velit auctor aliquet.
+                 Aenean sollicitudin, lorem quis bibendum auctor, 
+                 nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                <span>
+                    <span class="probut"><button type="button" class="btn btn-primary11" data-toggle="modal" data-target="#myModal" style="font-size: 12px;
+                        margin-bottom: 4px;">Read More</button>
+
+
+
+                </span>
+                
+                </p></span>
+
+
+
+                 <span class="projecttext2"><p> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                   Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque 
+                     
+                     </p></span>
+                     <div class="projectpic1">
+                            <ul>
+                        
+                         <li><a href="detailpage.html">VIEW DETAILS</a></li>
+                     </ul>
+                     </div>
+                     
+                    
+                    
+
+        </div>
+    </div>
+</div>
+
+   
+
+
+<div class="send1">
+<div class="sendtext">
+ <textarea type="text" placeholder="Write a Suggestion......" class="messagebox1"></textarea>
+</div>
+<div class="sendbu">
+    <button class="te"><i class="far fa-paper-plane"></i></button>
+</div>
+</div>
+<div class="leee1">
+    <a href="#">View All Suggestion</a>   
+    </div>
+
+<div class="comment">
+<div class="commentpic">
+    <img src="images/person.png">
+</div>
+<div class="commentext">
+    <a href="#">Vikash Singh</a>
+    <p>this is a best project</p>
+    <div class="like">
+        <ul>
+            
+            <li><a href="#"><img src="images/reply.png"> Reply</a></li>
+        </ul>
+    </div>
+
+    <div class="reply1">
+        <div class="rel">
+            <img src="images/contacts.png">
+        </div>
+        <div class="rel11">
+            <input type="text" placeholder="text" class="r">
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+    
+    <div class="project">
+        <div class="detailprosonal">
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="parsonal">
+                        <div class="photo">
+                            <img src="images/person.png">
+                        </div>
+                        <div class="detaila1">
+                            <ul>
+                                <li><a href="#">Vikash Singh 
+                               
+                                <button  class="do1" type="button" data-toggle="modal" data-target="#myMo" style="border: none;
+                                ">
+                                    <i class="fas fa-users"></i> 07
+                                   </button>
+                            
+                            
+                             
+                                </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="container1">
+                            
+                          
+                            <!-- The Modal -->
+                            <div class="modal" id="myMo">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                
+                                  <!-- Modal Header -->
+                                  <div class="modal-header">
+                                    <h4 class="modal-title">Group Member Name</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  </div>
+                                  
+                                  <!-- Modal body -->
+                                  <div class="modal-body">
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class="groupmember">
+                                    <div class="relg">
+                                        <img src="images/contacts.png">
+                                    </div>
+                                    <div class="groupmemberinfo">
+                                        <ul>
+                                            <li><a href="#">Vikash SINGH</a></li>
+                                            <li><a href="#">ID NO. 3o0o053</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                  </div>
+                                  
+                                  <!-- Modal footer -->
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+
+                        <div class="detail1">
+                            <ul>
+                               
+                            <li><a href="#">20-02-2020 & 05: 30 AM</a></li>
+                            </ul>
+                        </div>
+                   </div>
+                </div>
+              
+                <div class="col-sm-3">
+                    <div class="parsonal">
+                <div class="detail11">
+                    <ul>
+                        <li><a href="#">Profile Code</a></li>
+                   
+                    </ul>
+                </div>
+                <div class="detail1">
+                    <ul>
+                        
+                    <li><a href="#">[ 00as3303 ]</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="col-sm-3">
+                <div class="detail111">
+                    <ul>
+                        <li><a href="#">Regitration NO.</a></li>
+                   
+                    </ul>
+                </div>
+                <div class="detail1">
+                    <ul>
+                        
+                    <li><a href="#">[ 00as3303 ]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="dw">
+                
+                <div class="dropup">
+                    <button class="dropbtn">
+
+                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropup-content">
+                      <a href="#">SAVE
+                          <span class="ico"><i class="fa fa-download" aria-hidden="true"></i></span>
+                        
+                        
+                        </a>
+                    <a href="#">SHARE
+                        
+                        <span class="ico"><i class="fa fa-share-alt-square" aria-hidden="true"></i></span>
+                    
+                    
+                    </a>
+                      <a href="#">IP LINK / INFO</a>
+                      <a href="#">DELETE
+                          
+                        <span class="ico"><i class="fa fa-trash" aria-hidden="true"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+
+</span> 
+        </div>
+    </div>
+   
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="Categories">
+                <ul>
+                    <li><a href="#">CATEGORY : - SOFTWARE</a></li>
+                  
+                </ul>
+            </div>
+        </div>
+        
+            <div class="interstedabc">
+            <div class="interested">
+               
+                <button class="abt">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+
+                </button>
+              
+                   
+                        
+                        
+                       
+                    
+                    
+                   
+                   
+               
+            </div>
+            <div class="interestedB">
+                <button class="abt1"> 
+                        
+               
+                 I AM INTERESTED
+                </button>
+            </div>
+           
+        
+        <div class="interested">
+               
+            <button class="abt2">
+                <i class="fas fa-share-alt"></i>
+
+            </button>            
+            
+          
+       
+    </div>
+        </div>
+    </div>
+<div class="heading">
+    <h2>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh HGFFGF</h2>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        <div class="projectpic">
+            <a href="#"><img src="images/projectpic.png"></a>
+        </div>
+    </div>
+    <div class="col-sm-8">
+        <div class="projectpic">
+
+            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum. 
+                Proin gravida nibh vel velit auctor aliquet.
+                 Aenean sollicitudin, lorem quis bibendum auctor, 
+                 nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                <span>
+                    <span class="probut"><button type="button" class="btn btn-primary11" data-toggle="modal" data-target="#myModal" style="font-size: 12px;
+                        margin-bottom: 4px;">Read More</button>
+
+
+
+                </span>
+                
+                </p></span>
+
+
+
+                 <span class="projecttext2"><p> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                   Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque 
+                     
+                     </p></span>
+                     <div class="projectpic1">
+                            <ul>
+                      
+                         <li><a href="detailpage.html">VIEW DETAILS</a></li>
+                     </ul>
+                     </div>
+                     
+                    
+                    
+
+        </div>
+    </div>
+</div>
+
+  
+
+
+<div class="send1">
+    <div class="sendtext">
+     <textarea type="text" placeholder="Write a Suggestion......" class="messagebox1"></textarea>
+    </div>
+    <div class="sendbu">
+        <button class="te"><i class="far fa-paper-plane"></i></button>
+    </div>
+    </div>
+
+    <div class="leee1">
+        <a href="#">View All Suggestion</a>   
+        </div>
+    
+<div class="comment">
+    <div class="commentpic">
+        <img src="images/person.png">
+    </div>
+    <div class="commentext">
+        <a href="#">Vikash Singh</a>
+        <p>this is a best project</p>
+        <div class="like">
+            <ul>
+                
+                <li><a href="#"><img src="images/reply.png"> Reply</a></li>
+            </ul>
+        </div>
+        <div class="reply1">
+            <div class="rel">
+                <img src="images/contacts.png">
+            </div>
+            <div class="rel11">
+                <input type="text" placeholder="text" class="r">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+
+<!-- FooTER -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="about">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Advantages</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="about">
+                    <h3>Need Help</h3>
+                    <ul>
+                        <li><a href="#">Help Center
+                        </a></li>
+                        <li><a href="#">Terms & condition
+                        </a></li>
+                        <li><a href="#">Ad choices
+                        </a></li>
+                        <li><a href="#">tttt</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="about">
+                    <h3>OUR POLICYs</h3>
+                    <ul>
+                        <li><a href="#">Cookies Policy
+                        </a></li>
+                        <li><a href="#">Advantages</a></li>
+                        <li><a href="#">Copyright Policy</a></li>
+                        <li><a href="#">Project marketing Policy</a></li>
+                        <li><a href="#">Advertising Policy</a></li>
+                        <li><a href="#">Privacy  Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="about">
+                    <h3>FEEDBACK</h3>
+                     <div class="f">
+                        <form class=fee>
+                            <p>Name<span style="color: red;">*</span></p>
+                            <input type="text" placeholder=" Enter Name ">
+                            <p>Mobile<span style="color: red;">*</span></p>
+                            <input type="number" placeholder="mobile">
+                            <p>Category<span style="color: red;">*</span></p>
+                            <select class="w">
+                                <option>Project related</option>
+                                <option>Project related</option>
+                                <option>Project related</option>
+                                <option>Project related</option>
+                                <option>Project related</option>
+                            </select>
+                            <p>Email ID<span style="color: red;">*</span></p>
+                            <input type="text" placeholder="Enter email ID">
+                            <p>Comment<span style="color: red;">*</span></p>
+                            <textarea class="w"></textarea>
+                            <button class="b">Send</button>
+                        </form>
+                        
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+     <script>
+
+         
+        jQuery(document).ready(function(){
+            jQuery('.row .menu').meanmenu();
+        
+    });
+
+    
+    </script>
+   <script src="js/jquery.meanmenu.js"></script>
+
+   <script>
+    $(document).ready(function(){
+      
+      $('.abt').tooltip({title: "Save This Project in  Your Profile", placement: "bottom"}); 
+      $('.abt1').tooltip({title: "Taking Intrest for by this Project", placement: "bottom"}); 
+      $('.abt2').tooltip({title: "Share A  Project link", placement: "bottom"}); 
+    });
+    </script>
+</body>
+</html>

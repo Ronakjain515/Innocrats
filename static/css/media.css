@@ -1,0 +1,2860 @@
+@media only screen and (max-width:1170px){
+    .container{
+        width:100%;
+    }
+}
+@media only screen and (max-width:1125px){
+    .submit a {
+        display: block;
+        width: 84%;
+        background: #1d7662;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding: 6px;
+        margin-top: 8px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .menu ul li a {
+        display: block;
+        padding: 4px 14px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        transition: .5s;
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .ic {
+        width: 70%;
+        text-align: center;
+        font-size: 16px;
+        padding: 0px;
+        position: absolute;
+        left: -40px;
+        top: 9px;
+        border-radius: 63%;
+        border: 2px solid #fff;
+        background: #1d7662;
+        color: #ffffff;
+        height: 37px;
+    }
+    .search {
+        width: 50%;
+        float: left;
+        margin-left: 15px;
+    }
+    .icon ul li a {
+        display: block;
+        padding: 0px 0px;
+        margin: 5px;
+    }
+    iframe {
+        margin-left: 10px;
+        width: 97px;
+        height: 97px;
+    }
+
+    .admin {
+        width: 25%;
+        float: left;
+        background: #007bff;
+        height: 100vh;
+    }
+    .subpro a {
+        display: block;
+        font-size: 11px;
+        background: #fff;
+        border-radius: 9px;
+        padding: 6px;
+        color: #000;
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        width: 218px;
+    }
+    .uses ul li a {
+        display: block;
+        padding: 5px 28px;
+        color: #fff;
+    }
+    .text p {
+        color: #000;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .detail1 ul li a {
+        /* font-weight: bold; */
+        color: #777;
+        font-size: 9px;
+        text-decoration: none;
+    }
+    .butt {
+        width: 49%;
+        position: absolute;
+        left: 68px;
+        top: 5px;
+    }
+    .submit1 a {
+        display: block;
+        width: 85%;
+        background: #1d7662;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding: 6px;
+        margin-top: 8px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .searchbut input {
+        width: 480px;
+        padding: 10px;
+    }
+    
+    .share ul li a {
+        display: block;
+        color: #000;
+        padding: 5px 8px;
+        border: none;
+        width: 98px;
+    }
+    .share {
+        width: 100%;
+        float: left;
+        margin: 0px -22px;
+    }
+    .projectpic p {
+        color: #000;
+        line-height: 23px;
+        font-weight: 400;
+        padding: 0px;
+        font-size: 14px;
+    }
+    .heading h2 {
+        font-size: 16px;
+        padding: 0px 13px;
+    }
+   
+    .butt {
+        width: 49%;
+        position: absolute;
+        left: 68px;
+        top: 4px;
+    }
+    .email {
+        width: 77%;
+        float: left;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .detail ul li a {
+        font-weight: bold;
+        color: #000;
+        font-size: 10px;
+        text-decoration: none;
+    }
+    .detail11 ul li a {
+        font-weight: bold;
+        color: #000;
+        font-size: 10px;
+        text-decoration: none;
+    }
+    .detail111 ul li a {
+        font-weight: bold;
+        color: #000;
+        font-size: 10px;
+        text-decoration: none;
+    }
+    .sendbu1 {
+        width: 17%;
+        float: left;
+        text-align: center;
+        border: 1px solid #000;
+        margin-top: 49px;
+        background: #03f;
+    }
+    .footeremail {
+        width: 80%;
+        float: left;
+        padding: 5px;
+        margin: 3px;
+    }
+    .sendbu11 {
+        width: 16%;
+        float: left;
+        text-align: center;
+        border: 1px solid #000;
+        margin-top: 2px;
+        background: #03f;
+        padding: 7px;
+    }
+    .btnn {
+        width: 75px;
+        background: #0062cc;
+        padding: 5px;
+        color: #fff;
+    }
+
+}
+@media only screen and (max-width:1059px){
+    .menu ul li a{
+        display: block;
+        padding: 15px 8px;
+    }
+    .about h3 {
+        color: #fff;
+        font-size: 23px;
+    }
+    .about ul li a {
+        font-size: 15px;
+    }
+    .butt {
+        width: 49%;
+        position: absolute;
+        left: 69px;
+        top: 5px;
+    }
+    .menu {
+        width: 100%;
+        float: left;
+        text-align: end;
+    }
+
+
+}
+@media only screen and (max-width:992px){
+    .searchbut input {
+        width: 370px;
+        padding: 10px;
+    }
+.submit a {
+    width: 100%;
+    font-size: 12px;
+}
+.submit1 a {
+    display: block;
+    width: 88%;
+}
+iframe {
+    margin-left: 10px;
+    width: 71px;
+    height: 69px;
+}
+.logo {
+    width: 26%;
+    float: left;
+    padding: 5px;
+}
+.ic {
+    width: 81%;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+    position: absolute;
+    left: -40px;
+    top: 9px;
+    border-radius: 63%;
+    border: 2px solid #fff;
+    background: #1d7662;
+    color: #ffffff;
+    height: 37px;
+}
+.search {
+    width: 45%;
+    float: left;
+    margin-left: 15px;
+}
+.submit1 {
+    width: 96%;
+    float: left;
+    margin-left: 0px;
+}
+.submit {
+    width: 22%;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-top: 3px;
+}
+.butt {
+    width: 49%;
+    position: absolute;
+    left: 38px;
+    top: 4px;
+}
+.leee1 {
+    width: 90%;
+    float: left;
+}
+.commentpic {
+    width: 6%;
+    float: left;
+    border: 1px solid #bebebe;
+    border-radius: 60%;
+    height: 34px;
+    text-align: center;
+    margin: 4px;
+}
+.commentext {
+    width: 45%;
+    float: left;
+    margin-left: 5px;
+    background: #e4e4e4;
+    border-radius: 11px;
+    margin: 5px;
+}
+.detail ul li a {
+    font-weight: bold;
+    color: #000;
+    font-size: 9px;
+    text-decoration: none;
+}
+.detail1 ul li a {
+    /* font-weight: bold; */
+    color: #777;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.uses ul li a {
+    display: block;
+    padding: 5px 16px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.text p {
+    color: #000;
+    font-size: 11px;
+    line-height: 26px;
+}
+.project {
+    width: 100%;
+    float: left;
+    /* border: 1px solid #323232; */
+    box-shadow: 0px 2px 7px 0px black;
+    margin: 0px 8px 9px 0px;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.do1 {
+    width: 55px;
+    float: right;
+    border: 1px solid #bebebe;
+    text-align: center;
+    border-radius: 20px;
+    background: #e8e8e8;
+    font-size: 11px;
+    margin-top: 4px;
+}
+.detail {
+    width: 60%;
+    float: left;
+    margin-top: -7px;
+}
+.detail11 {
+    width: 60%;
+    float: left;
+    margin-top: -7px;
+}
+.detail11 ul li a {
+    font-weight: bold;
+    color: #000;
+    font-size: 10px;
+    text-decoration: none;
+}
+.detail111 {
+    width: 60%;
+    float: left;
+    margin-top: 0px;
+}
+.detail111 ul li a {
+    font-weight: bold;
+    color: #000;
+    font-size: 9px;
+    text-decoration: none;
+}
+.Categories ul li a {
+    display: block;
+    padding: 10px;
+    color: #aba9a9;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+.interested ul li a {
+    display: block;
+    padding: 6px;
+    color: #fff;
+    text-decoration: none;
+    background: #39c12b;
+    width: 126px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+.heading h2 {
+    font-size: 16px;
+    padding: 0px 13px;
+}
+
+.projectpic1 ul li a {
+    display: block;
+    color: #0062cc;
+    padding: 4px;
+    margin: 0px;
+    font-size: 8px;
+    font-weight: 800;
+}
+.share ul li a {
+    display: block;
+    color: #000;
+    padding: 5px 8px;
+    border: none;
+    width: 97px;
+}
+.projectpic p {
+    color: #000;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 0px;
+    font-size: 10px;
+}
+.login ul li a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.icon ul li a {
+    display: block;
+    padding: 0px 1px;
+    margin: 5px;
+    font-size: 10px;
+}
+.te11 {
+    width: 19px;
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    height: 45px;
+}
+.te1 {
+    width: 19px;
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    height: 45px;
+}
+
+}
+@media only screen and (max-width:890px){
+    .searchbut input {
+        width: 400px;
+        padding: 10px;
+    }
+    .butt {
+        width: 100%;
+        position: absolute;
+        left: 39px;
+        top: 4px;
+        margin-left: 0px;
+    }
+    .submit a {
+        width: 100%;
+        font-size: 11px;
+        padding: 7px;
+    }
+
+
+
+}
+@media only screen and (max-width:825px){
+
+    .submit a {
+        width: 100%;
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 13px;
+    }
+    .submit1 a {
+        display: block;
+        width: 88%;
+        padding: 5px;
+        font-size: 10px;
+        margin-top: 13px;
+    }
+
+
+
+
+
+
+}
+@media only screen and (max-width:790px){
+    .searchbut input {
+        width: 330px;
+        padding: 10px;
+    }
+    .butt {
+        width: 49%;
+        position: absolute;
+        left: 0px;
+        top: 5px;
+    }
+    .indexbanner {
+        width: 100%;
+        float: left;
+        background: #e8e8e8;
+        margin-top: -22px;
+    }
+    .te {
+        width: 40px;
+        background: none;
+        outline: none;
+        border: none;
+        color: #fff;
+        font-size: 32px;
+    }
+   
+
+
+}
+@media only screen and (max-width:767px){
+    .butt {
+        width: 49%;
+        position: absolute;
+        left: 12px;
+        top: 5px;
+    }
+    .do1{
+        display: none;
+    }
+    .detail {
+        width: 40%;
+        float: left;
+        margin-top: 0px;
+    }
+    .detail1 {
+        width: 59%;
+        float: left;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .commentpic {
+        width: 9%;
+        float: left;
+        border: 1px solid #bebebe;
+        border-radius: 60%;
+        height: 34px;
+        text-align: center;
+        margin: 4px;
+    }
+    .project {
+        width: 100%;
+        float: left;
+        /* border: 1px solid #323232; */
+        box-shadow: 0px 2px 7px 0px black;
+        margin: 0px 8px 9px 0px;
+        background: #fff;
+        border-radius: 3px;
+        margin-top: 30%;
+    }
+
+
+
+
+
+
+
+
+
+    .detail1 ul li a {
+        /* font-weight: bold; */
+        color: #777;
+        font-size: 7px;
+        text-decoration: none;
+    }
+    .detail11 {
+        width: 100%;
+        float: left;
+        margin-top: 0px;
+    }
+    .detail111 {
+        width: 100%;
+        float: left;
+        margin-top: 3px;
+    }
+    .heading h2 {
+        font-size: 14px;
+        padding: 0px 13px;
+    }
+    .projectpic1 ul li a {
+        display: block;
+        color: #0062cc;
+        padding: 0px;
+        margin: 0px;
+        font-size: 8px;
+        /* font-weight: 800; */
+    }
+    .share ul li a {
+        display: block;
+        color: #000;
+        padding: -2px 0px;
+        border: none;
+        width: 69px;
+    }
+
+    .projecttext2 {
+        width: 100%;
+        float: left;
+        display: none;
+    }
+
+    .probut {
+        display: inline-block;
+    }
+
+    .projectpic p {
+        color: #000;
+        line-height: 20px;
+        font-weight: 400;
+        padding: 0px;
+        font-size: 12px;
+    }
+    .uses ul li a {
+        display: block;
+        padding: 5px 8px;
+        color: #fff;
+        text-align: center;
+        font-size: 11px;
+    }
+    .text p {
+        color: #000;
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    iframe {
+        margin-left: 10px;
+        width: 41px;
+        height: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:753px){
+    .submit a {
+        width: 100%;
+        font-size: 8px;
+        padding: 3px;
+        margin-top: 13px;
+    }
+
+    .submit1 a {
+        display: block;
+        width: 88%;
+        padding: 3px;
+        font-size: 8px;
+        margin-top: 13px;
+    }
+    .banner {
+        width: 100%;
+        float: left;
+        background: url(../images/banner.png)no-repeat;
+        background-size: 100%;
+        height: 148px
+
+
+}
+}
+@media only screen and (max-width:750px){
+
+
+    
+    .projectpic p {
+        color: #000;
+        line-height: 19px;
+        font-weight: 400;
+        padding: 15px;
+        font-size: 9px;
+    }
+    .about h3 {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .about ul li a {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:703px){
+    .login ul li a {
+        display: block;
+        padding: 5px 5px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .contactus ul li a {
+        display: block;
+        color: #fff;
+        padding: 5px 5px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .icon img {
+        max-width: 59%;
+    }
+    .icon ul li a {
+        display: block;
+        padding: 0px 1px;
+        margin: 2px;
+        font-size: 10px;
+    }
+    
+
+}
+@media only screen and (max-width:654px){
+    .searchbut input {
+        width: 300px;
+        padding: 10px;
+    }
+    .butt {
+        width: 49%;
+        position: absolute;
+        left: 1px;
+        top: 5px;
+    }
+
+
+
+}
+@media only screen and (max-width:629px){
+    .submit a {
+        width: 100%;
+        font-size: 8px;
+        padding: 7px;
+        margin-top: 10px;
+    }
+    .submit1 a {
+        display: block;
+        width: 88%;
+        padding: 7px;
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width:604px){
+    .contactus ul li a {
+        display: block;
+        color: #fff;
+        padding: 5px 5px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    .icon ul li a {
+        display: block;
+        padding: 0px 0px;
+        margin: 0px;
+        font-size: 10px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:575px){
+    .login {
+        width: 100%;
+        float: left;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .banner {
+        width: 100%;
+        float: left;
+        background: url(../images/banner.png)no-repeat;
+        background-size: 100%;
+        height: 129px;
+    }
+    .searchbar {
+        width: 100%;
+        float: left;
+        /* background: #fff; */
+        margin-top: 0%;
+    }  
+
+    .icon {
+        width: 100%;
+        float: left;
+        padding: 5px;
+    }
+    .contactus {
+        width: 100%;
+        float: left;
+        padding: 4px;
+    }
+    .dw {
+        width: 90%;
+        float: left;
+        margin-top: 6px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -10px;
+        position: absolute;
+        left: 31px;
+    }
+    .do1{
+        display: block;
+    }
+    .do1 {
+        width: 71px;
+        float: right;
+        border: 1px solid #bebebe;
+        text-align: center;
+        border-radius: 20px;
+        background: #e8e8e8;
+        font-size: 17px;
+        margin-top: 4px;
+        position: absolute;
+        left: 149px;
+        top: 5px;
+        margin-left: 0px;
+    }
+    .searchbar{
+        display: none;
+    }
+    .submit {
+        width: 50%;
+        float: left;
+        margin: 3px;
+    }
+    .submit1 {
+        width: 57%;
+        float: left;
+       
+        margin: 3px;
+    }
+
+    .submit a {
+        width: 100%;
+        font-size: 12px;
+        padding: 7px;
+        margin-top: 10px;
+    }
+    .submit1 a {
+        display: block;
+        width: 88%;
+        padding: 7px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .search input {
+        
+            width: 100%;
+            padding: 1px;
+            margin: 2px;
+        }
+    
+    .searchbut input {
+        width: 100%;
+        padding: 1px;
+    }
+    .searchbut {
+        width: 80%;
+        float: left;
+        position: absolute;
+        left: 15px;
+        top: 0px;
+    }
+    .butt {
+        width: 97%;
+        position: absolute;
+        left: 1px;
+        top: 4px;
+        text-align: right;
+    }
+    .btnn {
+        width: 60px;
+        background: #0062cc;
+        padding: 0px;
+        color: #fff;
+        margin: -2px;
+    }
+    
+    .detail {
+        width: 50%;
+        float: left;
+        margin-top: 0px;
+    }
+    .detail ul li a {
+        font-weight: bold;
+        color: #000;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .detail1 {
+        width: 50%;
+        float: left;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .detail1 ul li a {
+        font-weight: bold;
+        color: #777;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .detail11 {
+        width: 100%;
+        float: left;
+        margin-top: -2px}
+
+    .detail11 ul li a {
+        font-weight: bold;
+        color: #000;
+        font-size: 14px;
+        text-decoration: none;
+    }
+.detail111 {
+    width: 100%;
+    float: left;
+    margin-top: 4px;
+}
+.detail111 ul li a {
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px;
+}
+.detail1 ul li a {
+    font-weight: bold;
+    color: #777;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px;
+}
+.detail {
+    width: 91%;
+    float: left;
+    margin-top: 8px;
+}
+.parsonal {
+    width: 100%;
+    float: left;
+    padding: 10px;
+   border: none;
+}
+.Categories ul li a {
+    display: block;
+    padding: 10px;
+    color: #aba9a9;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.interested {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+.projectpic img {
+    max-width: 96%;}
+
+    .projectpic p {
+        color: #000;
+        line-height: 31px;
+        font-weight: 400;
+        padding: 15px;
+        font-size: 14px;
+    }
+    .projectpic1 ul li a {
+        display: block;
+        color: #0062cc;
+        padding: 14px;
+        margin: 0px;
+        font-size: 12px;
+        /* font-weight: 800; */
+    }
+    .share ul li a {
+        display: block;
+        color: #000;
+        padding: -2px 0px;
+        border: none;
+        width: 124px;
+    }
+    .interested ul li a {
+        display: block;
+        padding: 9px;
+        color: #fff;
+        text-decoration: none;
+        background: #39c12b;
+        width: 186px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+
+    .probut {
+        display: none;
+    }
+
+    .projecttext2 {
+        width: 100%;
+        float: left;
+        display: block;
+    }
+    .projectpic {
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+    }
+    .projectpic p {
+        color: #000;
+        line-height: 31px;
+        font-weight: 400;
+        padding: 15px;
+        font-size: 14px;
+        margin-top: -31px;
+    }
+
+    .projecttext1 {
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+    }
+
+    iframe {
+        margin-left: 10px;
+        width: 252px;
+        height: 252px;
+    }
+    .uses {
+        width: 95%;
+        float: left;
+        background: #323232;
+        margin: 10px;
+    }
+    .uses ul li a {
+        display: block;
+        padding: 5px 36px;
+        color: #fff;
+        text-align: center;
+        font-size: 11px;
+    }
+    .text {
+        width: 96%;
+        float: left;
+        margin-top: 0px;
+        margin: 10px;
+    }
+
+
+
+
+
+
+}
+
+@media only screen and (max-width:560px){
+    .project {
+        width: 100%;
+        float: left;
+        /* border: 1px solid #323232; */
+        box-shadow: 0px 2px 7px 0px black;
+        margin: 0px 8px 9px 0px;
+        background: #fff;
+        border-radius: 3px;
+        margin-top: 41%;
+    }
+}
+@media only screen and (max-width:445px){
+
+    .projectpic p {
+        color: #000;
+        line-height: 23px;
+        font-weight: 400;
+        padding: 15px;
+        font-size: 14px;
+    }
+    .projectpic1 ul li a {
+        display: block;
+        color: #0062cc;
+        padding: 5px;
+        margin: 0px;
+        font-size: 12px;
+        /* font-weight: 800; */
+    }
+
+    .share {
+        width: 100%;
+        float: left;
+        margin: 5px;
+    }
+
+
+}
+@media only screen and (max-width:428px){
+    .projectpic1 ul li a {
+        display: block;
+        color: #0062cc;
+        padding: 4px;
+        margin: 0px;
+        font-size: 11px;
+        /* font-weight: 800; */
+    }
+
+    .projectpic img {
+        max-width: 81%;
+    }
+    .share ul li a {
+        display: block;
+        color: #000;
+        padding: -2px 0px;
+        border: none;
+        width: 105px;
+    }
+    .dw {
+        width: 90%;
+        float: left;
+        margin-top: 6px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -10px;
+        position: absolute;
+        left: 6px;
+    }
+    .do1 {
+        width: 71px;
+        float: right;
+        border: 1px solid #bebebe;
+        text-align: center;
+        border-radius: 20px;
+        background: #e8e8e8;
+        font-size: 17px;
+        margin-top: 4px;
+        position: absolute;
+        left: 101px;
+        top: 5px;
+        margin-left: 0px;
+    }
+
+    .banner {
+        width: 100%;
+        float: left;
+        background: url(../images/banner.png)no-repeat;
+        background-size: 100%;
+        height: 118px;
+    }
+    .about {
+        width: 100%;
+        float: left;
+        margin-top: 0px;
+    }
+    .about h3 {
+        color: #fff;
+        font-size: 21px;
+    }
+    .about ul li a {
+        font-size: 12px;
+    }
+    .commentpic {
+        width: 11%;
+        float: left;
+        border: 1px solid #bebebe;
+        border-radius: 60%;
+        height: 34px;
+        text-align: center;
+        margin: 4px;
+    }
+    .commentext {
+        width: 81%;
+        float: left;
+        margin-left: 5px;
+        background: #e4e4e4;
+        border-radius: 11px;
+        margin: 5px;
+    }
+
+    .project {
+        width: 100%;
+        float: left;
+        /* border: 1px solid #323232; */
+        box-shadow: 0px 2px 7px 0px black;
+        margin: 0px 8px 9px 0px;
+        background: #fff;
+        border-radius: 3px;
+        margin-top: 55%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (max-width:371px){
+    .projectpic {
+        width: 100%;
+        float: left;
+        margin: 5px;
+    }
+
+    .share ul li a {
+        display: block;
+        color: #000;
+        padding: -2px 0px;
+        border: none;
+        width: 91px;
+    }
+    .indexbanner {
+        width: 100%;
+        float: left;
+        background: #e8e8e8;
+        margin-top: -48px;
+    }
+
+    .messagebox1 {
+        width: 97%;
+        float: left;
+        border: 1px solid #000;
+        margin: 5px;
+    }
+
+    .sendtext {
+        width: 80%;
+        float: left;
+    }
+    .sendbu {
+        width: 18%;
+        float: left;
+        text-align: center;
+        border: 1px solid #000;
+        margin-top: 5px;
+        background: #03f;
+    }
+
+    .project {
+        width: 100%;
+        float: left;
+        /* border: 1px solid #323232; */
+        box-shadow: 0px 2px 7px 0px black;
+        margin: 0px 8px 9px 0px;
+        background: #fff;
+        border-radius: 3px;
+        margin-top: 77%;
+    }
+
+
+
+
+}
+@media only screen and (max-width:331px){
+
+    .projectpic1 ul li a {
+        display: block;
+        color: #0062cc;
+        padding: 4px;
+        margin: 0px;
+        font-size: 9px;
+        /* font-weight: 800; */
+    }
+
+    .share ul li a {
+        display: block;
+        color: #000;
+        padding: -2px 0px;
+        border: none;
+        width: 85px;
+    }
+    .detail1 ul li a {
+        font-weight: bold;
+        color: #777;
+        font-size: 10px;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    .searchbut input {
+        width: 88%;
+        padding: 1px;
+    }
+    .uses ul li a {
+        display: block;
+        padding: 5px 14px;
+        color: #fff;
+        font-size: 12px;
+    }
+}
+    /* categories page */
+
+    @media only screen and (max-width:1125px){
+        .send {
+            background: blue;
+            color: #fff;
+            padding: 3px;
+            position: absolute;
+            right: 85px;
+            width: 100%;
+            /* margin-top: 3px; */
+        }
+
+        .reqbutton {
+            width: 100%;
+            float: left;
+            margin-top: 161%;
+        }
+   
+    }
+
+    @media only screen and (max-width:992px){
+        .send {
+            background: blue;
+            color: #fff;
+            padding: 3px;
+            position: absolute;
+            right: 64px;
+            width: 100%;
+            /* margin-top: 3px; */
+        }
+
+        .reqbutton {
+            width: 100%;
+            float: left;
+            margin-top: 202%;
+        }
+        .about h3 {
+            color: #fff;
+            font-size: 20px;
+        }
+        .about ul li a {
+            font-size: 14px;
+        }
+
+
+
+
+    }
+    @media only screen and (max-width:767px){
+        .send {
+            background: blue;
+            color: #fff;
+            padding: 3px;
+            position: absolute;
+            right: 49px;
+            width: 100%;
+            /* margin-top: 3px; */
+        }
+.reqbutton {
+    width: 100%;
+    float: left;
+    margin-top: 306%;
+}
+.about h3 {
+    color: #fff;
+    font-size: 14px;
+}
+.about ul li a {
+    font-size: 11px;
+}
+
+    }
+    @media only screen and (max-width:576px){
+        .select {
+            margin-top: 10%;
+        }
+        .searchrequid {
+            width: 100%;
+            float: left;
+            margin-top: 1%;
+        }
+
+        .opt {
+            width: 60%;
+            float: left;
+            padding: 2px;
+            margin-top: 2px;
+        }
+        .req {
+            width: 60%;
+            float: left;
+            padding: 1px;
+        }
+        .reqbutton {
+            width: 84%;
+            float: left;
+            margin-top: 0%;
+            padding: 6px;
+            margin-left: 0px;
+        }
+        .send {
+            background: blue;
+            color: #fff;
+            padding: 3px;
+            position: absolute;
+            right: 288px;
+            width: 22%;
+            /* margin-top: 3px; */
+            left: 0px;
+        }
+        .about h3 {
+            color: #fff;
+            font-size: 23px;
+        }
+        .about ul li a {
+            font-size: 15px;
+        }
+        
+
+    }
+
+
+    /* Companylist */
+    @media only screen and (max-width:1125px){
+        .atoz {
+            width: 100%;
+            float: left;
+            background: #eceaea;
+            border: 1px solid #000;
+            margin-top: 4%;
+            text-align: center;
+        }
+        .atoz ul li a {
+            display: block;
+            padding: 0px 9px;
+            color: #000;
+            font-weight: bold;
+        }
+
+
+
+    }
+    @media only screen and (max-width:992px){
+
+        .butt1 {
+            width: 87%;
+            position: absolute;
+            left: 75px;
+            top: 13px;
+        }
+
+
+    }
+    @media only screen and (max-width:767px){
+        .companysearch ul li a {
+            display: block;
+            padding: 0px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .searchcompanylist {
+            width: 100%;
+            float: left;
+            margin-top: 2px;
+            padding: 1px;
+        }
+        .atoz ul li a {
+            display: block;
+            padding: 0px 2px;
+            color: #000;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .companybox {
+            width: 100%;
+            float: left;
+            height: 400px;
+            border: 2px solid #000;
+            margin: 15px;
+            box-shadow: 0px 8px 10px black;
+            margin-top: 36px;
+        }
+
+
+    }
+    @media only screen and (max-width:765px){
+        .butt1 {
+            width: 83%;
+            position: absolute;
+            left: 75px;
+            top: 13px;
+        }
+        .searchcompanylist {
+            width: 100%;
+            float: left;
+            margin-top: 2px;
+            padding: 6px;
+        }
+
+
+
+
+
+
+
+
+
+
+    }
+    @media only screen and (max-width:567px){
+       
+
+        .companysearch {
+            width: 20%;
+            float: left;
+            background: #0062cc;
+            text-align: center;
+            margin: 5px;
+            border: 2px solid #868686;
+        }
+        .companybackground {
+            width: 95%;
+            float: left;
+          
+            margin-top: 4%;
+        }
+        .butt1 {
+            width: 82%;
+            position: absolute;
+            left: 75px;
+            top: 13px;
+        }
+
+        .project1{
+            width: 90%;
+            float: left;
+            /* border: 1px solid #323232; */
+            box-shadow: 0px 5px 11px 0px black;
+            margin: 6px 0px 18px 8px;
+            background: #fff;
+        }
+    }
+    @media only screen and (max-width:523px){
+        .butt1 {
+            width: 80%;
+            position: absolute;
+            left: 75px;
+            top: 13px;
+        }
+
+
+
+    }
+    @media only screen and (max-width:500px){
+        .atoz {
+            width: 100%;
+            float: left;
+            background: #eceaea;
+            border: 1px solid #000;
+            margin-top: 5%;
+            text-align: center;
+        }
+        .atoz ul li a {
+            display: block;
+            padding: 0px 1px;
+            color: #000;
+            font-weight: bold;
+            font-size: 10px;
+        }
+        .bannercompanylist {
+            width: 100%;
+            float: left;
+            background: url(../images/bannercompanylist.png)no-repeat;
+            height: 129px;
+            background-size: 100%;
+            /* margin-top: -9px; */
+        }
+        .companybackground {
+            width: 95%;
+            float: left;
+           
+            margin-top: 3%;
+        }
+    }
+@media only screen and (max-width:467px){
+
+    .butt1 {
+        width: 77%;
+        position: absolute;
+        left: 75px;
+        top: 13px;
+    }
+    .te {
+        width: 34px;
+        background: none;
+        outline: none;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 9px;
+    }
+}
+@media only screen and (max-width:416px){
+    .butt1 {
+        width: 74%;
+        position: absolute;
+        left: 77px;
+        top: 13px;
+    }
+
+@media only screen and (max-width:380px){
+    .butt1 {
+        width: 78%;
+        position: absolute;
+        left: 42px;
+        top: 1px
+    }
+
+    .bannercompanylist {
+        width: 100%;
+        float: left;
+        background: url(../images/bannercompanylist.png)no-repeat;
+        height: 59px;
+        background-size: 100%;
+        /* margin-top: -9px; */
+    }
+
+    .searchcompanylist {
+        width: 100%;
+        float: left;
+        margin-top: -4px;
+        padding: 6px;
+    }
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+   
+
+    /* REQUIRED PAGE */
+
+    @media only screen and (max-width:1125px){
+
+        .reqbanner {
+            width: 100%;
+            float: left;
+            background: url(../images/required.png)no-repeat;
+            background-size: 100%;
+            height: 146px;
+            /* margin-top: -9px; */
+        }
+
+        iframe {
+            margin-left: 0px;
+            height: 244px;
+        }
+
+    }
+@media only screen and (max-width:992px){
+
+    iframe {
+        margin-left: 0px;
+        height: 176px;
+    }
+
+
+
+
+
+}
+
+
+    @media only screen and (max-width:967px){
+        .reqbanner {
+            width: 100%;
+            float: left;
+            background: url(../images/required.png)no-repeat;
+            background-size: 100%;
+            height: 114px;
+            /* margin-top: -9px; */
+        }
+
+
+
+    }
+    @media only screen and (max-width:768px){
+        iframe {
+            margin-left: 0px;
+            height: 129px;
+        }
+        .reqbanner {
+            width: 100%;
+            float: left;
+            background: url(../images/required.png)no-repeat;
+            background-size: 100%;
+            height: 98px;
+            /* margin-top: -9px; */
+        }
+
+
+
+    }
+    @media only screen and (max-width:576px){
+
+        .reqbanner {
+            width: 100%;
+            float: left;
+            background: url(../images/required.png)no-repeat;
+            /* background-size: 100%; */
+            /* height: 98px; */
+            /* margin-top: -9px; */
+        }
+
+        .searchbar {
+            width: 100%;
+            float: left;
+            /* background: #fff; */
+            margin-top: 1%;
+        }
+        .butt {
+            width: 97%;
+            position: absolute;
+            left: 0px;
+            top: 4px;
+            text-align: right;
+        }
+        .searchbut {
+            width: 83%;
+            float: left;
+            position: absolute;
+            left: 15px;
+            top: 0px;
+        }
+
+        .ourrequired p {
+            color: #868686;
+            line-height: 22px;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+
+        .reqbox {
+            width: 100%;
+            float: left;
+            padding: 10px;
+        }
+        iframe {
+            margin-left: 0px;
+            height: 291px;
+        }
+
+    }
+    @media only screen and (max-width:500px){
+        .searchbut input {
+            width: 97%;
+            padding: 1px;
+        }
+        .cateno a {
+            width: 100%;
+            display: block;
+            padding: 10px;
+            color: #000;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .cateno1 a {
+            width: 100%;
+            display: block;
+            padding: 10px;
+            color: #000;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .ourrequired h5 {
+            color: #0062cc;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .search input {
+            width: 100%;
+            padding: 1px;
+            font-size: 12px;
+        }
+
+        .searchbut input {
+            width: 97%;
+            padding: 1px;
+            font-size: 12px;
+        }
+
+        .btnn {
+            width: 60px;
+            background: #0062cc;
+            padding: 0px;
+            color: #fff;
+            /* margin: 2px; */
+            font-size: 14px;
+            margin-top: -1px;
+        }
+        .butt {
+            width: 97%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            text-align: right;
+        }
+
+
+
+
+
+
+
+
+
+
+
+    }
+    @media only screen and (max-width:450px){
+
+        .searchbut {
+            width: 81%;
+            float: left;
+            position: absolute;
+            left: 15px;
+            top: 0px;
+        }
+
+
+
+
+
+    }
+    @media only screen and (max-width:385px){
+        .butt {
+            width: 97%;
+            position: absolute;
+            left: 0px;
+            top: 1px;
+            text-align: right;
+        }
+        .savebutton a {
+            width: 100%;
+            float: left;
+            background: #0062cc;
+            color: #fff;
+            font-weight: bold;
+            padding: 4px;
+        }
+    }
+    @media only screen and (max-width:320px){
+        .searchbut {
+            width: 74%;
+            float: left;
+            position: absolute;
+            left: 15px;
+            top: 0px;
+        }
+        .butt {
+            width: 97%;
+            position: absolute;
+            left: -7px;
+            top: 1px;
+            text-align: right;
+        }
+        .cateno1 a {
+            width: 100%;
+            display: block;
+            padding: 10px;
+            color: #000;
+            font-weight: bold;
+            font-size: 10px;
+        }
+        .cateno a {
+            width: 100%;
+            display: block;
+            padding: 10px;
+            color: #000;
+            font-weight: bold;
+            font-size: 10px;
+        }
+        .uses ul li a {
+            display: block;
+            padding: 2px 15px;
+            color: #fff;
+            font-size: 12px;
+        }
+        .reqheading a {
+            width: 100%;
+            display: block;
+            padding: 10px;
+            color: #000;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .reqheading1 a {
+            width: 100%;
+            display: block;
+            padding: 10px;
+            color: rgb(173, 170, 170);
+            font-size: 13px;
+        }
+
+        .savebutton a {
+            width: 100%;
+            float: left;
+            background: #0062cc;
+            color: #fff;
+            font-weight: bold;
+            padding: 4px;
+            font-size: 13px;
+        }
+
+
+
+
+    }
+
+
+    /* submit page */
+    @media only screen and (max-width:1125px){
+        iframe {
+            margin-left: 0px;
+            height: 114px;
+            width: 131px;
+            padding: 10px;
+        }
+
+
+    }
+    @media only screen and (max-width:992px){
+        .creat h3 {
+            color: #000;
+            font-weight: bold;
+            font-size: 23px;
+            margin-top: 20px;
+        }
+        .creat h5 {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 21px;
+        }
+        .creat1 h5 {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 73px;
+        }
+
+        .get a {
+            width: 100%;
+            float: left;
+            background: #0062cc;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .step img{
+            max-width: 100%;
+        }
+
+    }
+
+    @media only screen and (max-width:768px){
+
+        .get a {
+            width: 100%;
+            float: left;
+            background: #0062cc;
+            color: #fff;
+            /* padding: 3px; */
+            text-align: center;
+            /* font-weight: bold; */
+            font-size: 9px;
+        }
+        .creat h3 {
+            color: #000;
+            font-weight: bold;
+            font-size: 13px;
+            margin-top: 20px;
+        }
+        .creat h5 {
+            color: #000;
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 33px;
+        }
+
+        .submitsearch1 button {
+            width: 100%;
+            background: #0062cc;
+            color: #fff;
+            padding: 2px;
+            margin-top: 10px;
+        }
+        .creat1 h5 {
+            color: #000;
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 59px;
+        }
+
+
+    }
+
+    @media only screen and (max-width:578px){
+
+        .back {
+            width: 80%;
+            float: left;
+            margin: 63px;
+            text-align: center;
+        }
+        .submitsearch1 button {
+            width: 35%;
+            background: #0062cc;
+            color: #fff;
+            padding: 2px;
+            margin-top: 10px;
+        }
+        .get a {
+            width: 45%;
+            float: left;
+            background: #0062cc;
+            color: #fff;
+            /* padding: 3px; */
+            text-align: center;
+            /* font-weight: bold; */
+            font-size: 9px;
+        }
+        .submitsearch1 {
+            width: 100%;
+            float: left;
+            margin-top: 0px;
+        }
+
+        .bottonback {
+            width: 21%;
+            background: #0062cc;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 13px;}
+            .subinput {
+                width: 100%;
+                float: left;
+                margin-top: 13px;
+            }
+
+    }
+    @media only screen and (max-width:461px){
+        .submitsearch1 button {
+            width: 35%;
+            background: #0062cc;
+            color: #fff;
+            padding: 2px;
+            margin-top: 10px;
+            font-size: 10px;
+        }
+
+
+
+
+
+    }
+
+    @media only screen and (max-width:1125px){
+        .subtext1 {
+            width: 23%;
+        }
+        .subproject h5 {
+            font-size: 20px;
+        }
+
+
+
+
+
+
+    }
+    @media only screen and (max-width:992px){
+.creat h3 {
+    font-size: 19px;
+}
+.subproject h5 {
+    font-size: 15px;
+}
+.subtext1 {
+    width: 34%;
+}
+
+
+
+
+    }
+    @media only screen and (max-width:767px){
+
+        .creat h3 {
+            font-size: 15px;
+        }
+        .subtext1 {
+            width: 41%;
+        }
+
+
+    }
+
+
+    @media only screen and (max-width:576px){
+
+        .submitsearch1 input {
+            width: 100%;
+            padding: 5px;
+            margin: 5px;
+        }
+        .optioninp {
+            width: 18%;
+            float: left;
+        }
+        .pat {
+            width: 28%;
+            float: left;
+        }
+
+
+
+
+
+
+
+    }
+
+    @media only screen and (max-width:516px){
+
+        .pat {
+            width: 52%;
+            float: left;
+        }
+
+        /* .subtext1 {
+            width: 78%;
+        } */
+
+
+
+
+
+
+    }
+@media only screen and (max-width:507px){
+
+    .subtext1 {
+        width: 47%;
+    }
+
+
+
+
+}
+@media only screen and (max-width:450px){
+    .subtext1 {
+        width: 53%;
+    }
+    .project1 {
+        width: 93%;
+        float: left;
+        /* border: 1px solid #323232; */
+        box-shadow: 0px 5px 11px 0px black;
+        margin: 6px 0px 18px 8px;
+        background: #fff;
+    }
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width:404px){
+    .subtext1 {
+        width: 59%;
+    }
+
+
+
+
+
+
+
+
+}
+@media only screen and (max-width:366px){
+
+    .pat1 {
+        width: 55%;
+        float: left;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:337px){
+    .subtext1 {
+        width: 64%;
+    }
+    .subpro {
+        width: 84%;
+        float: left;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        margin-left: 22px;
+    }
+
+}
+            /* detail page */
+@media only screen and (max-width:1125px){
+    .uses ul li a {
+        display: block;
+        padding: 5px 25px;
+        color: #fff;
+        font-size: 14px;
+    }
+
+
+
+
+
+
+}
+@media only screen and (max-width:992px){
+    iframe {
+        margin-left: 0px;
+        height: 81px;
+        width: 92px;
+        padding: 10px;
+    }
+    .text p {
+        color: #000;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .bannerdetail {
+        
+        height: 111px;
+
+
+
+}
+}
+@media only screen and (max-width:768px){
+    .uses ul li a {
+        display: block;
+        padding: 5px 14px;
+        color: #fff;
+        font-size: 11px;
+    }
+    
+    .text p {
+        color: #000;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 10px;
+    }
+    iframe {
+        margin-left: 0px;
+        height: 81px;
+        width: 92px;
+        padding: 10px;
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width:576px){
+    .uses ul li a {
+        display: block;
+        padding: 5px 46px;
+        color: #fff;
+        font-size: 14px;
+    }
+    iframe {
+        margin-left: 0px;
+        height: 272px;
+        width: 272px;
+        padding: 10px;
+        display: block;
+    }
+
+    .bannerdetail {
+        height: 69px;
+    }
+    .admin {
+        width: 94%;
+        float: left;
+        background: #007bff;
+        height: 480px;
+        margin: 10px;
+    }
+
+}
+@media only screen and (max-width:492px){
+    .uses ul li a {
+        display: block;
+        padding: 5px 27px;
+        color: #fff;
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+}
+@media only screen and (max-width:377px){
+    .uses ul li a {
+        display: block;
+        padding: 5px 19px;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .projectpic1 ul li a {
+        display: block;
+        color: #0062cc;
+        padding: 4px;
+        margin: 0px;
+        font-size: 9px;
+        /* font-weight: 800; */
+    }
+
+
+}
+/* ********************************companyprofile************************ */
+
+
+@media only screen and (max-width:1125px){
+
+
+
+
+
+.edit {
+   
+    margin-top: -37px;
+   
+}
+
+.camera a {
+    width: 94px;
+    float: left;
+    position: absolute;
+    left: 214px;
+    margin-left: 0px;
+    top: 158px;
+}
+}
+@media only screen and (max-width:992px){
+    .edit {
+        margin-top: -80px;
+    }
+
+    .submitproject {
+        width: 21%;
+        float: left;
+        padding: 4px;
+        margin-top: -2px;
+    }
+    .camera {
+        width: 100%;
+        float: left;
+        background: #fff;
+        height: 128px;
+        position: absolute;
+        top: -58px;
+        left: -10px;
+    }
+    .submitproject a {
+        width: 100%;
+        background: #0062cc;
+        color: #fff;
+        font-weight: bold;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 4px;
+        font-size: 12px;
+    }
+    .camera a {
+        width: 94px;
+        float: left;
+        position: absolute;
+        left: 154px;
+        margin-left: 0px;
+        top: 95px;
+    }
+    .compmanyprofilebanner {
+        width: 100%;
+        float: left;
+        background: url(../images/bannercompanylist.png)no-repeat;
+        height: 166px;
+        background-size: 100%;
+        /* margin-top: -9px; */
+    }
+
+
+}
+@media only screen and (max-width:767px){
+
+    .edit{
+        display: none;
+    }
+    .camera a {
+        width: 94px;
+        float: left;
+        position: absolute;
+        left: 110px;
+        margin-left: 0px;
+        top: 95px;
+    }
+
+   
+    .compmanyprofilebanner {
+        width: 100%;
+        float: left;
+        background: url(../images/bannercompanylist.png)no-repeat;
+        height: 119px;
+        background-size: 100%;
+        /* margin-top: -9px; */
+    }
+
+
+
+}
+@media only screen and (max-width:576px){
+
+
+    .camera {
+        width: 38%;
+        float: left;
+        background: #fff;
+        height: 112px;
+        position: absolute;
+        top: -111px;
+        left: 11px;
+    }
+    .camera a {
+        width: 94px;
+        float: left;
+        position: absolute;
+        left: 196px;
+        margin-left: 0px;
+        top: 95px;
+    }
+    .submitproject a {
+        width: 100%;
+        background: #0062cc;
+        color: #fff;
+        font-weight: bold;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .camera a {
+        width: 94px;
+        float: left;
+        position: absolute;
+        left: 146px;
+        margin-left: 0px;
+        top: 81px;
+    }
+    .submitproject {
+        width: 72%;
+        float: left;
+        padding: 7px;
+        margin-top: -2px;
+    }
+}
+@media only screen and (max-width:400px){
+    .camera a {
+        width: 94px;
+        float: left;
+        position: absolute;
+        left: 104px;
+        margin-left: 0px;
+        top: 81px;
+    }
+
+    .submitproject {
+        width: 72%;
+        float: left;
+        padding: 7px;
+        margin-top: -2px;
+    }
+    .submitproject a {
+        width: 100%;
+        background: #0062cc;
+        color: #fff;
+        font-weight: bold;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+
+
+}
+/* ***********************fill Detail******************** */
+@media only screen and (max-width:992px){
+    .filldashbord ul li a {
+        display: block;
+        padding: 2px 7px;
+        color: #9f9f9f;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .fillinput input {
+        width: 95%;
+    }
+
+}
+/* *********************creatlead****************************************** */
+
+@media only screen and (max-width:992px){
+    .leadheading {
+        width: 100%;
+        float: left;
+        margin-top: 2px;
+        padding: -11px;
+    }
+    .leadheading p {
+        color: #fff;
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+
+}
+@media only screen and (max-width:767px){
+    .leadheading h2 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    .leadheading p {
+        color: #fff;
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .admin {
+        width: 100%;
+        float: left;
+        background: #007bff;
+        height: 100vh;
+    }
+
+
+}
+
+@media only screen and (max-width:576px){
+    .leadinput {
+        width: 90%;
+        float: left;
+        padding: 10px;
+    }
+
+    .vedio {
+        width: 95%;
+        float: left;
+        border: 1px solid #000;
+        margin: 10px;
+    }
+    .detail {
+        width: 90%;
+        float: left;
+        margin-top: 18px;
+    }
+
+  
+
+
+
+
+}
+@media only screen and (max-width:511px){
+
+    .leadheading h2 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .leadheading p {
+        color: #fff;
+        line-height: 18px;
+        font-size: 11px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:393px){
+    .leadheading p {
+        color: #fff;
+        line-height: 14px;
+        font-size: 11px;
+    }
+
+
+}
+@media only screen and (max-width:350px){
+    .leadheading h2 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .whitelead h2 {
+        color: #000;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+
+
+
+}
+}
+@media only screen and (max-width:935px){
+    .detail {
+        width: 63%;
+        float: left;
+        margin-top: -7px;
+    }
+    .subpro a {
+        display: block;
+        font-size: 9px;
+        background: #fff;
+        border-radius: 9px;
+        padding: 6px;
+        color: #000;
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        width: 218px;
+    }
+    .admin {
+        width: 27%;
+        float: left;
+        background: #007bff;
+        height: 100vh;
+    }
+    .detail1 {
+        width: 65%;
+        float: left;
+        margin-top: 0px;
+        padding: 0px;
+    }
+} 
+
+
+@media only screen and (max-width:900px){
+
+    .photo {
+        width: 29%;
+        float: left;
+    }
+    .do1 {
+        width: 35px;
+        float: right;
+        border: 1px solid #bebebe;
+        text-align: center;
+        border-radius: 20px;
+        background: #e8e8e8;
+        font-size: 11px;
+        margin-top: 4px;
+    }
+    .detail1 ul li a {
+        /* font-weight: bold; */
+        color: #777;
+        font-size: 8px;
+        text-decoration: none;
+    }
+    .admin {
+        width: 24%;
+        float: left;
+        background: #007bff;
+        height: 100vh;
+    }
+    .subpro a {
+        display: block;
+        font-size: 12px;
+        background: #fff;
+        border-radius: 9px;
+        padding: 6px;
+        color: #000;
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        width: 218px;
+    }
+}
+@media only screen and (max-width:730px){
+
+    .admin {
+        width: 95%;
+        float: left;
+        background: #007bff;
+        height: 480px;
+        margin: 10px;
+    }
+    .project1 {
+        width: 95%;
+        float: left;
+        /* border: 1px solid #323232; */
+        box-shadow: 0px 5px 11px 0px black;
+        margin: 6px 0px 18px 8px;
+        background: #fff;
+    }
+    .do1{
+        display: block;
+    }
+    .detail {
+        width: 71%;
+        float: left;
+        margin-top: 0px;
+    }
+    .subpro {
+        width: 93%;
+        float: left;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        margin-left: 22px;
+    }
+
+    .subpro a {
+        display: block;
+        font-size: 12px;
+        background: #fff;
+        border-radius: 9px;
+        padding: 6px;
+        color: #000;
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        width: 300px;
+    }
+    .detail {
+        width: 76%;
+        float: left;
+        margin-top: 11px;
+    }
+
+
+
+
+
+
+
+
+.detail1 {
+    width: 66%;
+    float: left;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+}
+
+
+
+
+
+
+
