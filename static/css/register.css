@@ -1,0 +1,263 @@
+.Register{
+    width:100%;
+    float: left;
+}
+.Register p{
+    color: #000;
+    font-size: 14px;
+}
+
+.loginform p{
+    text-align: center;
+    padding: 25px;
+}
+.freshers{
+    width:100%;
+    float: left;
+}
+.fresher1{
+    width:49%;
+    float: left;
+    text-align: center;
+}
+.fresher1 a {
+    width: 90%;
+    display: block;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: 17px;
+}
+.more{
+    width: 49%;
+    float: left;
+}
+.more a {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    color: #acacac;
+    border-right: 2px solid #c1c1c1;
+    text-align: center;
+}
+.more1{
+    width: 49%;
+    float: left;
+}
+.more1 a {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    color: #acacac;
+   
+    text-align: center;
+}
+
+.regiterr{
+    width:100%;
+    float: left;
+}
+.regiterr p{
+   color: #acacac;
+   padding: 10px;
+   margin-top: 20px;
+}
+.nex{
+    width:100%;
+    float: left;
+}
+.nex a{
+    width: 100%;
+    text-align: center;
+    display: block;
+
+}
+.icon{
+    width: 100%;
+    float: left;
+    /* padding: 10px; */
+    text-align: center;
+}
+.icon ul{
+    list-style: none;
+}
+.icon ul li{
+    display: inline-block;
+}
+.icon ul li a{
+    display: block;
+    padding: 20px;
+}
+.email1 {
+    width: 100%;
+    float: left;
+    padding: 10px 0px 0px 30px;
+   
+}
+.form{
+	width:100%;
+	float:left;
+	text-align: center;
+}
+.form input[type=radio]{
+			width: 44px;
+			height: 20px;
+			margin: 8px;
+}
+.email1 p 
+{
+    color: #000;
+    margin-bottom: 5px;
+    text-align: start;
+    padding: 0px;
+}
+.email1 input{
+    width: 95%;
+    float: left;
+    padding: 5px;
+}
+.password1{
+    width: 100%;
+    float: left;
+    padding: 10px 0px 0px 30px;
+    margin-top: 10px;
+}
+.password1 p{
+    color: #000;
+    margin-bottom: 5px;
+    text-align: start;
+    padding: 0px;
+
+}
+.password1 input{
+    width: 95%;
+    float: left;
+    padding: 5px;
+}
+.loginname1{
+    width:100%;
+    float: left;
+    padding: 10px 0px 0px 30px;
+}
+.loname1 {
+    width: 39%;
+    float: left;
+    margin-top: 10px;
+}
+.loname1 p{
+    color: #000;
+    margin-bottom: 2px;
+    text-align: start;
+    padding: 2px;
+  
+}
+.loname1 input{
+    width: 92%;
+    float: left;
+    padding: 5px;
+}
+
+.loname111{
+    width:20%;
+    float: left;
+    margin-top: 10px;
+}
+.loname111 select {
+    width: 89%;
+    float: left;
+    padding: 6px;
+}
+.loname111 p{
+    color: #000;
+    margin-bottom: 2px;
+    text-align: start;
+    padding: 2px;
+  
+}
+.loname111 input{
+    width: 95%;
+    float: left;
+    padding: 5px;
+}
+.loname11n{
+    width:79%;
+    float: left;
+    margin-top: 10px;
+}
+.loname11n p{
+    color: #000;
+    margin-bottom: 2px;
+    text-align: start;
+    padding: 2px;
+  
+}
+.loname11n input{
+    width: 95%;
+    float: left;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.save{
+    width:100%;
+    float: left;
+}
+.forget1{
+    width:48%;
+    float: left;
+}
+.forget1 a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width:100%;
+    color: #007bff;
+    font-size: 14px;
+  margin-top: 20px;
+    text-decoration: none;
+   
+}
+.logi1{
+    width:100%;
+    float: left;
+    padding: 35px;
+}
+.logi1 p{
+    color: #007bff;
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.logi1 a {
+    display: block;
+    padding: 10px;
+    width:100%;
+    background: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 29px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.logi a:hover{
+	 background: #007bff;
+	 color: #fff;
+	 text-decoration: none;
+	
+}
