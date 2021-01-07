@@ -13,12 +13,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-   
-   
+
+
 </head>
 <body>
      <!-- started header -->
-   
+
     <div class="header">
         <div class="container-fluid">
             <div class="row">
@@ -34,14 +34,14 @@
                     </div>
                 </div>
                         <div class="col-sm-5">
-                            
+
                             <div class="menu">
                                 <ul>
                                     <li><a href="index.html">VIEW PROJECTS</a></li>
                                     <li><a href="required.html">    VIEW LEADS</a></li>
                                     <li><a href="categoriespage.html"> CATEGORIES  </a></li>
                                     <li><a href="companylist.html"> COMPANY</a></li>
-                                   
+
                                 </ul>
                                 </div>
 
@@ -50,17 +50,17 @@
                                 <div class="login">
                                     <ul>
                                         <li><a href="notification.html"><img src="{% static 'images/alert.png' %}"></a></li>
-                                        <li><a href="{% url 'Login' %}">Login</a></li>
-                                        <li><a href="{% url 'Register' %}">Registred</a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="regist.html">Registred</a></li>
                                     </ul>
                                 </div>
                             </div>
                     </div>
              </div>
             </div>
-        
+
         <div class="container-fluid">
-           
+
                 <div class="navs">
                         <div class="logo">
                                                 <img src="{% static 'images/logo.png' %}">
@@ -73,13 +73,13 @@
                                                 </div>
                                                <div class="sec">
                                     <button class="ic">
-                                                                                    
+
                                                                                             <i class="fas fa-search"></i>
-                                                                                    
+
                                                                                     </button>
                                                </div>
-                                               
-                                            </div>  
+
+                                            </div>
                                             <div class="submit">
                                                 <div class="submit1">
                                                     <a href="creatlead.html">SUBMIT PROJECT</a>
@@ -87,19 +87,19 @@
                                                 <div class="submit1">
                                                     <a href="creatlead.html">CREAT LEAD</a>
                                                 </div>
-                                            </div>                    
+                                            </div>
 
                 </div>
-                   
+
                 </div>
-               
-                    
-                       
-                        
-                          
-                       
-                       
-                
+
+
+
+
+
+
+
+
         <!-- END HEADER -->
             <div class="banner">
                 <div id="demo" class="carousel slide" data-ride="carousel">
@@ -114,21 +114,21 @@
                         <div class="carousel-caption">
                           <h3>Los Angeles</h3>
                           <p>We had such a great time in LA!</p>
-                        </div>   
+                        </div>
                       </div>
                       <div class="carousel-item">
                         <img src="{% static 'images/banner.png' %}" height="291px"  width="100%">
                         <div class="carousel-caption">
                           <h3>Chicago</h3>
                           <p>Thank you, Chicago!</p>
-                        </div>   
+                        </div>
                       </div>
                       <div class="carousel-item">
                         <img src="{% static 'images/banner.png' %}" height="291px"  width="100%">
                         <div class="carousel-caption">
                           <h3>New York</h3>
                           <p>We love the Big Apple!</p>
-                        </div>   
+                        </div>
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -138,57 +138,57 @@
                       <span class="carousel-control-next-icon"></span>
                     </a>
                   </div>
-                  
+
         </div>
-    
+
 <div class="indexbanner">
-     
+
     <div class="container">
-            
+
         <!-- Button to Open the Modal -->
-        
-         
-        
-      
+
+
+
+
         <!-- The Modal -->
         <div class="modal fade" id="myModal">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-            
+
               <!-- Modal Header -->
               <div class="modal-header">
                 <h4 class="modal-title">title</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
-              
+
               <!-- Modal body -->
               <div class="modal-body">
                <p style="    font-size: 14px;
                line-height: 25px;
                padding: 10px;"> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
                    Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
                     ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
                      Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque </p>
               </div>
-              
+
               <!-- Modal footer -->
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
               </div>
-              
+
             </div>
           </div>
         </div>
-        
+
       </div>
-      
+
 
 
 
 
 <div class="container">
-    
+
     <div class="project">
         <div class="detailprosonal">
             <div class="row">
@@ -196,43 +196,43 @@
                 <div class="col-sm-4">
                     <div class="parsonal">
                         <div class="photo">
-                            <img src="images/person.png">
+                            <img src="{% static 'images/person.png' %}">
                         </div>
                         <div class="detaila1">
                             <ul>
-                                <li><a href="#">Vikash Singh 
-                               
+                                <li><a href="#">Vikash Singh
+
                                 <button  class="do1" type="button" data-toggle="modal" data-target="#myMo" style="border: none;
                                 ">
                                     <i class="fas fa-users"></i> 07
                                    </button>
-                            
-                            
-                             
+
+
+
                                 </a></li>
                             </ul>
                         </div>
 
 
                         <div class="container1">
-                            
-                          
+
+
                             <!-- The Modal -->
                             <div class="modal" id="myMo">
                               <div class="modal-dialog">
                                 <div class="modal-content">
-                                
+
                                   <!-- Modal Header -->
                                   <div class="modal-header">
                                     <h4 class="modal-title">Group Member Name</h4>
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                   </div>
-                                  
+
                                   <!-- Modal body -->
                                   <div class="modal-body">
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -243,7 +243,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -254,7 +254,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -265,7 +265,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -276,7 +276,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -286,40 +286,40 @@
                                     </div>
                                    </div>
                                   </div>
-                                  
+
                                   <!-- Modal footer -->
                                   <div class="modal-footer">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                   </div>
-                                  
+
                                 </div>
                               </div>
                             </div>
-                            
+
                           </div>
 
 
 
                         <div class="detail1">
                             <ul>
-                               
+
                             <li><a href="#">20-02-2020 & 05: 30 AM</a></li>
                             </ul>
                         </div>
                    </div>
                 </div>
-              
+
                 <div class="col-sm-3">
                     <div class="parsonal">
                 <div class="detail11">
                     <ul>
                         <li><a href="#">Project Code</a></li>
-                   
+
                     </ul>
                 </div>
                 <div class="detail1">
                     <ul>
-                        
+
                     <li><a href="#">[ 00as3303 ]</a></li>
                     </ul>
                 </div>
@@ -329,90 +329,85 @@
                 <div class="detail111">
                     <ul>
                         <li><a href="#">Regitration NO.</a></li>
-                   
+
                     </ul>
                 </div>
                 <div class="detail1">
                     <ul>
-                        
+
                     <li><a href="#">[ 00as3303 ]</a></li>
                     </ul>
                 </div>
             </div>
             <span class="dw">
-                
+
                 <div class="dropup">
                     <button class="dropbtn">
 
                         <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
                     </button>
                     <div class="dropup-content">
-                     
-                    <a href="#">SHARE
-                        
-                        <span class="ico"><i class="fa fa-share-alt-square" aria-hidden="true"></i></span>
-                    
-                    
-                    </a> 
+
+
                       <a href="#">IP LINK / INFO
 
 
                       </a>
-                     
+
                     </div>
                   </div>
 
-</span> 
+</span>
         </div>
     </div>
-   
+
     <div class="row">
         <div class="col-sm-8">
             <div class="Categories">
                 <ul>
                     <li><a href="#">CATEGORY : - SOFTWARE</a></li>
-                  
+
                 </ul>
             </div>
         </div>
-        
+
             <div class="interstedabc">
             <div class="interested">
-               
+
                 <button class="abt">
                     <i class="fa fa-download" aria-hidden="true"></i>
 
                 </button>
-              
-                   
-                        
-                        
-                       
-                    
-                    
-                   
-                   
-               
+
+
+
+
+
+
+
+
+
+
             </div>
             <div class="interestedB">
-                <button class="abt1"> 
-                        
-               
+                <button class="abt1">
+
+
                  I AM INTERESTED
                 </button>
             </div>
-           
-        
+
+
         <div class="interested">
-               
-            
+
+
             <button class="abt2">
                 <i class="fas fa-share-alt"></i>
 
-            </button>              
-            
-          
-       
+            </button>
+
+
+
     </div>
         </div>
     </div>
@@ -420,7 +415,7 @@
 <div class="row">
     <div class="col-sm-4">
         <div class="projectpic">
-            <a href="#"><img src="images/projectpic.png"></a>
+            <a href="#"><img src="{% static 'images/projectpic.png' %}"></a>
         </div>
     </div>
     <div class="col-sm-8">
@@ -429,9 +424,9 @@
         </div>
         <div class="projectpic">
 
-            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum. 
+            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet.
-                 Aenean sollicitudin, lorem quis bibendum auctor, 
+                 Aenean sollicitudin, lorem quis bibendum auctor,
                  nisi elit consequat ipsum, nec sagittis sem nibh id elit.
                 <span>
                     <span class="probut"><button type="button" class="btn btn-primary11" data-toggle="modal" data-target="#myModal" style="font-size: 12px;
@@ -440,33 +435,33 @@
 
 
                 </span>
-                
+
                 </p></span>
 
 
 
                  <span class="projecttext2"><p> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
                    Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
                     ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
-                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque 
-                     
+                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque
+
                      </p></span>
                      <div class="projectpic1">
                             <ul>
-                                
-                    
+
+
                          <li><a href="detailpage.html">VIEW DETAILS</a></li>
                      </ul>
                      </div>
-             
-                    
+
+
 
         </div>
     </div>
 </div>
 
-   
+
 
 <div class="send1">
     <div class="sendtext">
@@ -476,12 +471,12 @@
         <button class="te"><i class="far fa-paper-plane"></i></button>
     </div>
     </div>
-    
-        <div class="leee1">
-            <a href="#">View All Suggestion</a>   
-            </div>
-        
-    <div class="comment">
+
+        <!-- <div class="leee1">
+            <a href="#">View All Suggestion</a>
+            </div> -->
+
+    <!-- <div class="comment">
         <div class="commentpic">
             <img src="images/person.png">
         </div>
@@ -490,7 +485,7 @@
             <p>this is a best project</p>
             <div class="like">
                 <ul>
-                    
+
                     <li><a href="#"><img src="images/reply.png"> Reply</a></li>
                 </ul>
             </div>
@@ -503,14 +498,14 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 </div>
 </div>
 
 
 <div class="container">
-    
+
     <div class="project">
         <div class="detailprosonal">
             <div class="row">
@@ -518,42 +513,42 @@
                 <div class="col-sm-4">
                     <div class="parsonal">
                         <div class="photo">
-                            <img src="images/person.png">
+                            <img src="{% static 'images/person.png' %}">
                         </div>
                         <div class="detaila1">
                             <ul>
-                                <li><a href="#">Vikash Singh 
-                               
+                                <li><a href="#">Vikash Singh
+
                                 <button  class="do1" type="button" data-toggle="modal" data-target="#myMo" style="border: none;
                                 ">
                                     <i class="fas fa-users"></i> 07
                                    </button>
-                            
-                            
-                             
+
+
+
                                 </a></li>
                             </ul>
                         </div>
 
                         <div class="container1">
-                            
-                          
+
+
                             <!-- The Modal -->
                             <div class="modal" id="myMo">
                               <div class="modal-dialog">
                                 <div class="modal-content">
-                                
+
                                   <!-- Modal Header -->
                                   <div class="modal-header">
                                     <h4 class="modal-title">Group Member Name</h4>
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                   </div>
-                                  
+
                                   <!-- Modal body -->
                                   <div class="modal-body">
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -564,7 +559,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -575,7 +570,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -586,7 +581,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -597,7 +592,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -607,38 +602,38 @@
                                     </div>
                                    </div>
                                   </div>
-                                  
+
                                   <!-- Modal footer -->
                                   <div class="modal-footer">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                   </div>
-                                  
+
                                 </div>
                               </div>
                             </div>
-                            
+
                           </div>
 
                         <div class="detail1">
                             <ul>
-                               
+
                             <li><a href="#">20-02-2020 & 05: 30 AM</a></li>
                             </ul>
                         </div>
                    </div>
                 </div>
-              
+
                 <div class="col-sm-3">
                     <div class="parsonal">
                 <div class="detail11">
                     <ul>
                         <li><a href="#">Project Code</a></li>
-                   
+
                     </ul>
                 </div>
                 <div class="detail1">
                     <ul>
-                        
+
                     <li><a href="#">[ 00as3303 ]</a></li>
                     </ul>
                 </div>
@@ -648,18 +643,18 @@
                 <div class="detail111">
                     <ul>
                         <li><a href="#">Regitration NO.</a></li>
-                   
+
                     </ul>
                 </div>
                 <div class="detail1">
                     <ul>
-                        
+
                     <li><a href="#">[ 00as3303 ]</a></li>
                     </ul>
                 </div>
             </div>
             <span class="dw">
-                
+
                 <div class="dropup">
                     <button class="dropbtn">
 
@@ -668,75 +663,75 @@
                     <div class="dropup-content">
                       <a href="#">SAVE
                           <span class="ico"><i class="fa fa-download" aria-hidden="true"></i></span>
-                        
-                        
+
+
                         </a>
                     <a href="#">SHARE
-                        
+
                         <span class="ico"><i class="fa fa-share-alt-square" aria-hidden="true"></i></span>
-                    
-                    
+
+
                     </a>
                       <a href="#">IP LINK / INFO</a>
                       <!-- <a href="#">DELETE
-                          
+
                         <span class="ico"><i class="fa fa-trash" aria-hidden="true"></i>
                         </span>
                       </a> -->
                     </div>
                   </div>
 
-</span> 
+</span>
         </div>
     </div>
-   
+
     <div class="row">
         <div class="col-sm-8">
             <div class="Categories">
                 <ul>
                     <li><a href="#">CATEGORY : - SOFTWARE</a></li>
-                  
+
                 </ul>
             </div>
         </div>
-        
+
             <div class="interstedabc">
             <div class="interested">
-               
+
                 <button class="abt">
                     <i class="fa fa-download" aria-hidden="true"></i>
 
                 </button>
-              
-                   
-                        
-                        
-                       
-                    
-                    
-                   
-                   
-               
+
+
+
+
+
+
+
+
+
+
             </div>
             <div class="interestedB">
-                <button class="abt1"> 
-                        
-               
+                <button class="abt1">
+
+
                  I AM INTERESTED
                 </button>
             </div>
-           
-        
+
+
         <div class="interested">
-               
-            
+
+
             <button class="abt2">
                 <i class="fas fa-share-alt"></i>
 
-            </button>             
-            
-          
-       
+            </button>
+
+
+
     </div>
         </div>
     </div>
@@ -746,15 +741,15 @@
 <div class="row">
     <div class="col-sm-4">
         <div class="projectpic">
-            <a href="#"><img src="images/projectpic.png"></a>
+            <a href="#"><img src="{% static 'images/projectpic.png' %}"></a>
         </div>
     </div>
     <div class="col-sm-8">
         <div class="projectpic">
 
-            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum. 
+            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet.
-                 Aenean sollicitudin, lorem quis bibendum auctor, 
+                 Aenean sollicitudin, lorem quis bibendum auctor,
                  nisi elit consequat ipsum, nec sagittis sem nibh id elit.
                 <span>
                     <span class="probut"><button type="button" class="btn btn-primary11" data-toggle="modal" data-target="#myModal" style="font-size: 12px;
@@ -763,32 +758,32 @@
 
 
                 </span>
-                
+
                 </p></span>
 
 
 
                  <span class="projecttext2"><p> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
                    Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
                     ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
-                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque 
-                     
+                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque
+
                      </p></span>
                      <div class="projectpic1">
                             <ul>
-                      
+
                          <li><a href="detailpage.html">VIEW DETAILS</a></li>
                      </ul>
                      </div>
-                     
-                
+
+
 
         </div>
     </div>
 </div>
 
-   
+
 
 
 <div class="send1">
@@ -799,11 +794,11 @@
         <button class="te"><i class="far fa-paper-plane"></i></button>
     </div>
     </div>
-    <div class="leee1">
-        <a href="#">View All Suggestion</a>   
-        </div>
-    
-<div class="comment">
+    <!-- <div class="leee1">
+        <a href="#">View All Suggestion</a>
+        </div> -->
+
+<!-- <div class="comment">
     <div class="commentpic">
         <img src="images/person.png">
     </div>
@@ -812,7 +807,7 @@
         <p>this is a best project</p>
         <div class="like">
             <ul>
-                
+
                 <li><a href="#"><img src="images/reply.png"> Reply</a></li>
             </ul>
         </div>
@@ -825,12 +820,12 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 </div>
 </div>
 
 <div class="container">
-    
+
     <div class="project">
         <div class="detailprosonal">
             <div class="row">
@@ -838,41 +833,41 @@
                 <div class="col-sm-4">
                     <div class="parsonal">
                         <div class="photo">
-                            <img src="images/person.png">
+                            <img src="{% static 'images/person.png' %}">
                         </div>
                         <div class="detaila1">
                             <ul>
-                                <li><a href="#">Vikash Singh 
-                               
+                                <li><a href="#">Vikash Singh
+
                                 <button  class="do1" type="button" data-toggle="modal" data-target="#myMo" style="border: none;
                                 ">
                                     <i class="fas fa-users"></i> 07
                                    </button>
-                            
-                            
-                             
+
+
+
                                 </a></li>
                             </ul>
                         </div>
                         <div class="container1">
-                            
-                          
+
+
                             <!-- The Modal -->
                             <div class="modal" id="myMo">
                               <div class="modal-dialog">
                                 <div class="modal-content">
-                                
+
                                   <!-- Modal Header -->
                                   <div class="modal-header">
                                     <h4 class="modal-title">Group Member Name</h4>
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                   </div>
-                                  
+
                                   <!-- Modal body -->
                                   <div class="modal-body">
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -883,7 +878,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -894,7 +889,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -905,7 +900,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -916,7 +911,7 @@
                                    </div>
                                    <div class="groupmember">
                                     <div class="relg">
-                                        <img src="images/contacts.png">
+                                        <img src="{% static 'images/contacts.png' %}">
                                     </div>
                                     <div class="groupmemberinfo">
                                         <ul>
@@ -926,38 +921,38 @@
                                     </div>
                                    </div>
                                   </div>
-                                  
+
                                   <!-- Modal footer -->
                                   <div class="modal-footer">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                   </div>
-                                  
+
                                 </div>
                               </div>
                             </div>
-                            
+
                           </div>
 
                         <div class="detail1">
                             <ul>
-                               
+
                             <li><a href="#">20-02-2020 & 05: 30 AM</a></li>
                             </ul>
                         </div>
                    </div>
                 </div>
-              
+
                 <div class="col-sm-3">
                     <div class="parsonal">
                 <div class="detail11">
                     <ul>
                         <li><a href="#">Project Code</a></li>
-                   
+
                     </ul>
                 </div>
                 <div class="detail1">
                     <ul>
-                        
+
                     <li><a href="#">[ 00as3303 ]</a></li>
                     </ul>
                 </div>
@@ -967,18 +962,18 @@
                 <div class="detail111">
                     <ul>
                         <li><a href="#">Regitration NO.</a></li>
-                   
+
                     </ul>
                 </div>
                 <div class="detail1">
                     <ul>
-                        
+
                     <li><a href="#">[ 00as3303 ]</a></li>
                     </ul>
                 </div>
             </div>
             <span class="dw">
-                
+
                 <div class="dropup">
                     <button class="dropbtn">
 
@@ -987,75 +982,75 @@
                     <div class="dropup-content">
                       <a href="#">SAVE
                           <span class="ico"><i class="fa fa-download" aria-hidden="true"></i></span>
-                        
-                        
+
+
                         </a>
                     <a href="#">SHARE
-                        
+
                         <span class="ico"><i class="fa fa-share-alt-square" aria-hidden="true"></i></span>
-                    
-                    
+
+
                     </a>
                       <a href="#">IP LINK / INFO</a>
                       <a href="#">DELETE
-                          
+
                         <span class="ico"><i class="fa fa-trash" aria-hidden="true"></i>
                         </span>
                       </a>
                     </div>
                   </div>
 
-</span> 
+</span>
         </div>
     </div>
-   
+
     <div class="row">
         <div class="col-sm-8">
             <div class="Categories">
                 <ul>
                     <li><a href="#">CATEGORY : - SOFTWARE</a></li>
-                  
+
                 </ul>
             </div>
         </div>
-        
+
             <div class="interstedabc">
             <div class="interested">
-               
+
                 <button class="abt">
                     <i class="fa fa-download" aria-hidden="true"></i>
 
                 </button>
-              
-                   
-                        
-                        
-                       
-                    
-                    
-                   
-                   
-               
+
+
+
+
+
+
+
+
+
+
             </div>
             <div class="interestedB">
-                <button class="abt1"> 
-                        
-               
+                <button class="abt1">
+
+
                  I AM INTERESTED
                 </button>
             </div>
-           
-        
+
+
         <div class="interested">
-               
-            
+
+
             <button class="abt2">
                 <i class="fas fa-share-alt"></i>
 
-            </button>              
-            
-          
-       
+            </button>
+
+
+
     </div>
         </div>
     </div>
@@ -1071,9 +1066,9 @@
     <div class="col-sm-8">
         <div class="projectpic">
 
-            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum. 
+            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet.
-                 Aenean sollicitudin, lorem quis bibendum auctor, 
+                 Aenean sollicitudin, lorem quis bibendum auctor,
                  nisi elit consequat ipsum, nec sagittis sem nibh id elit.
                 <span>
                     <span class="probut"><button type="button" class="btn btn-primary11" data-toggle="modal" data-target="#myModal" style="font-size: 12px;
@@ -1082,33 +1077,33 @@
 
 
                 </span>
-                
+
                 </p></span>
 
 
 
                  <span class="projecttext2"><p> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
                    Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
                     ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
-                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque 
-                     
+                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque
+
                      </p></span>
                      <div class="projectpic1">
                             <ul>
-                        
+
                          <li><a href="detailpage.html">VIEW DETAILS</a></li>
                      </ul>
                      </div>
-                     
-                    
-                    
+
+
+
 
         </div>
     </div>
 </div>
 
-   
+
 
 
 <div class="send1">
@@ -1119,11 +1114,11 @@
     <button class="te"><i class="far fa-paper-plane"></i></button>
 </div>
 </div>
-<div class="leee1">
-    <a href="#">View All Suggestion</a>   
-    </div>
+<!-- <div class="leee1">
+    <a href="#">View All Suggestion</a>
+    </div> -->
 
-<div class="comment">
+<!-- <div class="comment">
 <div class="commentpic">
     <img src="images/person.png">
 </div>
@@ -1132,7 +1127,7 @@
     <p>this is a best project</p>
     <div class="like">
         <ul>
-            
+
             <li><a href="#"><img src="images/reply.png"> Reply</a></li>
         </ul>
     </div>
@@ -1146,12 +1141,12 @@
         </div>
     </div>
 </div>
-</div>
+</div> -->
 </div>
 </div>
 
 <div class="container">
-    
+
     <div class="project">
         <div class="detailprosonal">
             <div class="row">
@@ -1163,33 +1158,33 @@
                         </div>
                         <div class="detaila1">
                             <ul>
-                                <li><a href="#">Vikash Singh 
-                               
+                                <li><a href="#">Vikash Singh
+
                                 <button  class="do1" type="button" data-toggle="modal" data-target="#myMo" style="border: none;
                                 ">
                                     <i class="fas fa-users"></i> 07
                                    </button>
-                            
-                            
-                             
+
+
+
                                 </a></li>
                             </ul>
                         </div>
 
                         <div class="container1">
-                            
-                          
+
+
                             <!-- The Modal -->
                             <div class="modal" id="myMo">
                               <div class="modal-dialog">
                                 <div class="modal-content">
-                                
+
                                   <!-- Modal Header -->
                                   <div class="modal-header">
                                     <h4 class="modal-title">Group Member Name</h4>
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                   </div>
-                                  
+
                                   <!-- Modal body -->
                                   <div class="modal-body">
                                    <div class="groupmember">
@@ -1248,38 +1243,38 @@
                                     </div>
                                    </div>
                                   </div>
-                                  
+
                                   <!-- Modal footer -->
                                   <div class="modal-footer">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                   </div>
-                                  
+
                                 </div>
                               </div>
                             </div>
-                            
+
                           </div>
 
                         <div class="detail1">
                             <ul>
-                               
+
                             <li><a href="#">20-02-2020 & 05: 30 AM</a></li>
                             </ul>
                         </div>
                    </div>
                 </div>
-              
+
                 <div class="col-sm-3">
                     <div class="parsonal">
                 <div class="detail11">
                     <ul>
                         <li><a href="#">Profile Code</a></li>
-                   
+
                     </ul>
                 </div>
                 <div class="detail1">
                     <ul>
-                        
+
                     <li><a href="#">[ 00as3303 ]</a></li>
                     </ul>
                 </div>
@@ -1289,18 +1284,18 @@
                 <div class="detail111">
                     <ul>
                         <li><a href="#">Regitration NO.</a></li>
-                   
+
                     </ul>
                 </div>
                 <div class="detail1">
                     <ul>
-                        
+
                     <li><a href="#">[ 00as3303 ]</a></li>
                     </ul>
                 </div>
             </div>
             <span class="dw">
-                
+
                 <div class="dropup">
                     <button class="dropbtn">
 
@@ -1309,74 +1304,74 @@
                     <div class="dropup-content">
                       <a href="#">SAVE
                           <span class="ico"><i class="fa fa-download" aria-hidden="true"></i></span>
-                        
-                        
+
+
                         </a>
                     <a href="#">SHARE
-                        
+
                         <span class="ico"><i class="fa fa-share-alt-square" aria-hidden="true"></i></span>
-                    
-                    
+
+
                     </a>
                       <a href="#">IP LINK / INFO</a>
                       <a href="#">DELETE
-                          
+
                         <span class="ico"><i class="fa fa-trash" aria-hidden="true"></i>
                         </span>
                       </a>
                     </div>
                   </div>
 
-</span> 
+</span>
         </div>
     </div>
-   
+
     <div class="row">
         <div class="col-sm-8">
             <div class="Categories">
                 <ul>
                     <li><a href="#">CATEGORY : - SOFTWARE</a></li>
-                  
+
                 </ul>
             </div>
         </div>
-        
+
             <div class="interstedabc">
             <div class="interested">
-               
+
                 <button class="abt">
                     <i class="fa fa-download" aria-hidden="true"></i>
 
                 </button>
-              
-                   
-                        
-                        
-                       
-                    
-                    
-                   
-                   
-               
+
+
+
+
+
+
+
+
+
+
             </div>
             <div class="interestedB">
-                <button class="abt1"> 
-                        
-               
+                <button class="abt1">
+
+
                  I AM INTERESTED
                 </button>
             </div>
-           
-        
+
+
         <div class="interested">
-               
+
             <button class="abt2">
                 <i class="fas fa-share-alt"></i>
 
-            </button>            
-            
-          
-       
+            </button>
+
+
+
     </div>
         </div>
     </div>
@@ -1392,9 +1387,9 @@
     <div class="col-sm-8">
         <div class="projectpic">
 
-            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum. 
+            <span class="projecttext1"><p>This is Photoshop's version  of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet.
-                 Aenean sollicitudin, lorem quis bibendum auctor, 
+                 Aenean sollicitudin, lorem quis bibendum auctor,
                  nisi elit consequat ipsum, nec sagittis sem nibh id elit.
                 <span>
                     <span class="probut"><button type="button" class="btn btn-primary11" data-toggle="modal" data-target="#myModal" style="font-size: 12px;
@@ -1403,33 +1398,33 @@
 
 
                 </span>
-                
+
                 </p></span>
 
 
 
                  <span class="projecttext2"><p> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
                    Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
                     ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
-                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque 
-                     
+                     Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque
+
                      </p></span>
                      <div class="projectpic1">
                             <ul>
-                      
+
                          <li><a href="detailpage.html">VIEW DETAILS</a></li>
                      </ul>
                      </div>
-                     
-                    
-                    
+
+
+
 
         </div>
     </div>
 </div>
 
-  
+
 
 
 <div class="send1">
@@ -1441,11 +1436,11 @@
     </div>
     </div>
 
-    <div class="leee1">
-        <a href="#">View All Suggestion</a>   
-        </div>
-    
-<div class="comment">
+    <!-- <div class="leee1">
+        <a href="#">View All Suggestion</a>
+        </div> -->
+
+<!-- <div class="comment">
     <div class="commentpic">
         <img src="images/person.png">
     </div>
@@ -1454,7 +1449,7 @@
         <p>this is a best project</p>
         <div class="like">
             <ul>
-                
+
                 <li><a href="#"><img src="images/reply.png"> Reply</a></li>
             </ul>
         </div>
@@ -1467,7 +1462,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 </div>
 </div>
 
@@ -1505,7 +1500,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
                 <div class="about">
                     <h3>OUR POLICYs</h3>
                     <ul>
@@ -1519,7 +1514,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-5">
                 <div class="about">
                     <h3>FEEDBACK</h3>
                      <div class="f">
